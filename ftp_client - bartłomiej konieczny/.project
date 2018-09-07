@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ftp_client - bartĹ‚omiej konieczny</name>
+	<comment>@key 32303037303533312D3130206674705F636C69656E74202D2062617274B36F6D69656A206B6F6E6965637A6E792F72656469 </comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.soyatec.additional.Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>com.soyatec.additional.Nature</nature>
+	</natures>
+</projectDescription>

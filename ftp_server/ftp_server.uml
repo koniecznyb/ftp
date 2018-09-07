@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_63SnAIb_EeOJZ_Ts3WWLLA" name="ftp_server">
+    <eAnnotations xmi:id="_7DG1cIb_EeOJZ_Ts3WWLLA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_7DG1cYb_EeOJZ_Ts3WWLLA" source="codegen">
+        <details xmi:id="_7DG1cob_EeOJZ_Ts3WWLLA" key="codegenDirectory" value="/ftp_server/src"/>
+        <details xmi:id="_8AGpMIb_EeOJZ_Ts3WWLLA" key="AssociatedSourceCode" value="/ftp_server/src/ftp/CommunicationConnection.java;1720144654/1;/ftp_server/src/ftp/CommunicationConnectionHandler.java;3599632431/1;/ftp_server/src/ftp/ConnectionHandler.java;715296172/1;/ftp_server/src/ftp/FTPMain.java;668237102/1;/ftp_server/src/ftp/FileTransferConnection.java;496591041/1;/ftp_server/src/sql/SQLConnection.java;1843625466/1;/ftp_server/src/sql/SQLException.java;3899338973/1;/ftp_server/src/gui/mainWindow.java;2078447880/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_7eei0Ib_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei0Yb_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei0ob_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei04b_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei1Ib_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei1Yb_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei1ob_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_7eei14b_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_7efJ4Ib_EeOJZ_Ts3WWLLA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7efJ4Yb_EeOJZ_Ts3WWLLA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_7efJ4ob_EeOJZ_Ts3WWLLA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_75yl0Ib_EeOJZ_Ts3WWLLA" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_75zz8Ib_EeOJZ_Ts3WWLLA" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_75-MAIb_EeOJZ_Ts3WWLLA" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_75-zEYb_EeOJZ_Ts3WWLLA" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_75_aIYb_EeOJZ_Ts3WWLLA" name="PrintWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76CdcIb_EeOJZ_Ts3WWLLA" name="BufferedInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76DEgYb_EeOJZ_Ts3WWLLA" name="BufferedOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76ESoIb_EeOJZ_Ts3WWLLA" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76ESoob_EeOJZ_Ts3WWLLA" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76E5sYb_EeOJZ_Ts3WWLLA" name="InputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76FgwYb_EeOJZ_Ts3WWLLA" name="OutputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7efw8Ib_EeOJZ_Ts3WWLLA" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_750bAIb_EeOJZ_Ts3WWLLA" name="BindException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_751CEYb_EeOJZ_Ts3WWLLA" name="ServerSocket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_751pIYb_EeOJZ_Ts3WWLLA" name="Socket"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7etMUIb_EeOJZ_Ts3WWLLA" name="sql">
+        <packagedElement xmi:type="uml:Class" xmi:id="_754FYIb_EeOJZ_Ts3WWLLA" name="SQLException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_76ty4Ib_EeOJZ_Ts3WWLLA" name="Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76uZ8Yb_EeOJZ_Ts3WWLLA" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_76vBAYb_EeOJZ_Ts3WWLLA" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_76voEYb_EeOJZ_Ts3WWLLA" name="Statement"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7etMUYb_EeOJZ_Ts3WWLLA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_754scYb_EeOJZ_Ts3WWLLA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_755TgYb_EeOJZ_Ts3WWLLA" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7556kYb_EeOJZ_Ts3WWLLA" name="Random"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76XNkYb_EeOJZ_Ts3WWLLA" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7hgBoIb_EeOJZ_Ts3WWLLA" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_7iDbQIb_EeOJZ_Ts3WWLLA" name="event">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_76V_cYb_EeOJZ_Ts3WWLLA" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_76WmgYb_EeOJZ_Ts3WWLLA" name="ActionEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76NckIb_EeOJZ_Ts3WWLLA" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76VYYYb_EeOJZ_Ts3WWLLA" name="FlowLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76a38Yb_EeOJZ_Ts3WWLLA" name="Color"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_77DxIIb_EeOJZ_Ts3WWLLA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_77DxIYb_EeOJZ_Ts3WWLLA" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_77TBsIb_EeOJZ_Ts3WWLLA" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7elQgIb_EeOJZ_Ts3WWLLA" name="ftp">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7nacYIb_EeOJZ_Ts3WWLLA" name="CommunicationConnection">
+        <ownedComment xmi:id="_78THQIb_EeOJZ_Ts3WWLLA">
+          <body>PoĹ‚aczenie komunikacyjne serwera ftp
+@author redi
+@version 1.0
+@see ftp.CommunicationConnectionHandler</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_77Vd8Ib_EeOJZ_Ts3WWLLA" name="incomingConnection" visibility="private" type="_751pIYb_EeOJZ_Ts3WWLLA" association="_78zdkIb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77WsEYb_EeOJZ_Ts3WWLLA" name="serverSocket" visibility="private" type="_751CEYb_EeOJZ_Ts3WWLLA" association="_79GYgYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77XTIYb_EeOJZ_Ts3WWLLA" name="port" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_77z_EIb_EeOJZ_Ts3WWLLA" name="CommunicationConnection" specification="_7nc4oIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77z_EYb_EeOJZ_Ts3WWLLA" name="port">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_77z_Eob_EeOJZ_Ts3WWLLA" type="_7nacYIb_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>this.port = port;
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_77z_E4b_EeOJZ_Ts3WWLLA" name="openSocket" specification="_7neGwIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77z_FIb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {
+			serverSocket = new ServerSocket(port, 5);
+			return true;
+		} catch (IOException e) {
+			System.out.println(&quot;Could not listen on port: &quot; + port);
+			e.printStackTrace();
+			return false;
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770mIIb_EeOJZ_Ts3WWLLA" name="startListening" specification="_7net0Ib_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>if( openSocket() ){
+
+			incomingConnection = null;
+			
+			while(true){
+				
+				try {
+					incomingConnection = serverSocket.accept();
+					handleConnection(incomingConnection);
+				} catch (BindException e) {
+					System.out.println(&quot;Unable to bind to port &quot; + port);
+				} catch (IOException e) {
+					System.out.println(&quot;Unable to instantiate a ServerSocket on port: &quot; + port);
+				}
+			}
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770mIYb_EeOJZ_Ts3WWLLA" name="handleConnection" specification="_769DcIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_770mIob_EeOJZ_Ts3WWLLA" name="connectionToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>new Thread(
+					new CommunicationConnectionHandler(connectionToHandle)
+			).start();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7nc4oIb_EeOJZ_Ts3WWLLA" name="CommunicationConnection" method="_77z_EIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_7ndfsYb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7ndfsob_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7ndfsIb_EeOJZ_Ts3WWLLA" name="port">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7ndfs4b_EeOJZ_Ts3WWLLA" type="_7nacYIb_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7neGwIb_EeOJZ_Ts3WWLLA" name="openSocket" visibility="private" method="_77z_E4b_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78THQYb_EeOJZ_Ts3WWLLA">
+            <body>Otworz socket
+         * @return czy powiodlo sie</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7neGwYb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7net0Ib_EeOJZ_Ts3WWLLA" name="startListening" method="_770mIIb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78THQob_EeOJZ_Ts3WWLLA">
+            <body>Rozpocznij nasĹ‚uchiwanie
+         * @see ftp.ConnectionHandler</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_769DcIb_EeOJZ_Ts3WWLLA" name="handleConnection" method="_770mIYb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78THQ4b_EeOJZ_Ts3WWLLA">
+            <body>ThreadPool funkcja startujÄ…ca watek
+         * @param connectionToHandle polaczenie do ktorego uruchamiamy watek</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_769DcYb_EeOJZ_Ts3WWLLA" name="connectionToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7nk0cIb_EeOJZ_Ts3WWLLA" name="CommunicationConnectionHandler">
+        <generalization xmi:id="_77CjAob_EeOJZ_Ts3WWLLA" general="_76-Rk4b_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77X6MIb_EeOJZ_Ts3WWLLA" name="connection" visibility="private" type="_7pZZYIb_EeOJZ_Ts3WWLLA" association="_79G_kYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77YhQIb_EeOJZ_Ts3WWLLA" name="fileTransferConnection" visibility="private" type="_76_fsIb_EeOJZ_Ts3WWLLA" association="_79HmoYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77YhQob_EeOJZ_Ts3WWLLA" name="currentPath" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77YhQ4b_EeOJZ_Ts3WWLLA" value="&quot;files&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77ZIUYb_EeOJZ_Ts3WWLLA" name="previousPath" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77ZIUob_EeOJZ_Ts3WWLLA" value="&quot;files&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77ZvYIb_EeOJZ_Ts3WWLLA" name="dir" visibility="private" type="_75yl0Ib_EeOJZ_Ts3WWLLA" association="_79INsYb_EeOJZ_Ts3WWLLA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7710QIb_EeOJZ_Ts3WWLLA" name="CommunicationConnectionHandler" specification="_77AGwYb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7710QYb_EeOJZ_Ts3WWLLA" name="socketToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_7710Qob_EeOJZ_Ts3WWLLA" type="_7nk0cIb_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>super(socketToHandle);
+		try {
+			connection = new SQLConnection(&quot;jdbc:mysql://mysql.agh.edu.pl:3306/redi&quot;, &quot;redi&quot;, &quot;WxP3abrB&quot;);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772bUIb_EeOJZ_Ts3WWLLA" name="handleConnection" specification="_7nn3wIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>String line1 = &quot;&quot;;
+		String line2 = &quot;&quot;;
+		String line3 = &quot;&quot;;
+		String line4 = &quot;&quot;;
+		
+ 		this.sendMessage(&quot;220 FTP Server ready!&quot;);
+ 				
+ 		line1 = readMessage();
+		if( (line1.substring(0, 4)).compareTo(&quot;USER&quot;) == 0 ){
+			this.sendMessage(&quot;331 Password required for &quot; + line1.substring(5));
+			
+			line2 = readMessage();
+			if( (line2.substring(0, 4)).compareTo(&quot;PASS&quot;) == 0 ){
+
+				if ( isCorrectLoginPassword(line1.substring(5), line2.substring(5)) ){
+					
+					this.sendMessage(&quot;230 User logged in&quot;);
+					
+					do{
+						String command = &quot;&quot;;
+						if( (command = readMessage()) == null)
+							break;
+
+						String[] splitMessage = command.toString().split(&quot;\\s+&quot;);
+
+						String message = splitMessage[0];
+						String filename = new String(&quot;&quot;);
+
+						for (int i = 1; i &lt; splitMessage.length; i++) {
+							if (i == 1)
+								filename = splitMessage[i];
+							else
+								filename = filename + &quot; &quot; + splitMessage[i];
+						}
+
+						String chmodPermissions = &quot;&quot;;
+						if (splitMessage.length == 3) {
+							chmodPermissions = splitMessage[2];
+						}
+						
+						
+						
+						switch(message){
+							case &quot;TYPE I&quot;:{
+								this.sendMessage(&quot;200 Type set to I&quot;);
+								break;
+							}
+							case &quot;PASV&quot;:{
+								Random r = new Random();
+								int randomInt = r.nextInt(500) + 1;
+								
+								int port = 4 * 256 + randomInt;
+								
+								fileTransferConnection = new FileTransferConnection(port);
+				
+								this.sendMessage( &quot;227 Entering Passive Mode (127,0,0,1,4,&quot;+randomInt+&quot;)&quot;);
+								fileTransferConnection.startListening();
+								break;
+							}
+							case &quot;PWD&quot;:{
+								this.sendMessage(&quot;257 &quot; + currentPath + &quot; is current directory&quot;);
+								break;
+							}
+							case &quot;ABOR&quot;:{
+								
+							}
+							case &quot;QUIT&quot;: {
+								this.sendMessage(&quot;221 Bye&quot;);
+								break;
+							}
+							case &quot;MLSD&quot;:{
+								
+								if(fileTransferConnection == null){
+									
+									this.sendMessage(&quot;503 Bad sequence of commands.&quot;);
+								}
+								else{
+									
+									MLSD();
+									fileTransferConnection.incomingConnection = null;
+								}
+								break;
+							}
+							default:{
+								if( (message + &quot; &quot; + filename).compareTo(&quot;CWD ..&quot;) == 0){
+									currentPath = previousPath;
+									this.sendMessage(&quot;250 CWD successful. &quot; + currentPath + &quot; is current directory.&quot;);
+								}
+								else if (message.matches(&quot;CWD.*&quot;)) {
+									File file = new File(currentPath + &quot;\\&quot; + filename);
+									previousPath = currentPath;
+									if(file.exists()){
+										currentPath = currentPath + &quot;\\&quot; + filename;
+										this.sendMessage(&quot;250 CWD successful. &quot; + currentPath + &quot; is current directory.&quot;);
+									}
+									else{
+										this.sendMessage(&quot;550 CWD failed &quot;+ filename +&quot; directory not found.&quot;);
+									}
+								}
+								
+								 else if (message.matches(&quot;RETR.*&quot;)) {
+
+									if(fileTransferConnection.incomingConnection == null){
+										this.sendMessage(&quot;503 Bad sequence of commands.&quot;);
+									}
+									else{
+										File file = new File(currentPath + &quot;\\&quot; +  filename);
+										if(file.exists()){
+											RETR(file);
+										}
+										else{
+											this.sendMessage(&quot;550 File not found.&quot;);
+										}
+										
+										fileTransferConnection.incomingConnection = null;
+									}
+
+								} 
+								else if (message.matches(&quot;STOR.*&quot;)) {
+									
+									if(fileTransferConnection.incomingConnection == null){
+										this.sendMessage(&quot;503 Bad sequence of commands.&quot;);
+									}
+									else{
+										File file = new File(currentPath + &quot;\\&quot; +  filename);
+										STOR(file);
+										
+										fileTransferConnection.incomingConnection = null;
+									}
+								} 
+//								else if (message.matches(&quot;CHMOD.*&quot;)) {
+//									this.sendMessage(&quot;503 Bad sequence of commands.&quot;);
+//
+//								} 
+//								else if (message.matches(&quot;APPE.*&quot;)) {
+//									
+//									if(fileTransferConnection.incomingConnection == null){
+//										this.sendMessage(&quot;503 Bad sequence of commands.&quot;);
+//									}
+//									else{
+//										File file = new File(currentPath + &quot;\\&quot; +  filename);
+//										STOR(file);
+//										
+//										fileTransferConnection.incomingConnection = null;
+//									}
+//
+//								} 
+								
+								else if (message.matches(&quot;DELE.*&quot;)) {
+									File file = new File(currentPath + &quot;\\&quot; +  filename);
+									if(file.exists()){
+										if(file.delete())
+											this.sendMessage(&quot;250 File deleted successfully&quot;);
+										else
+											this.sendMessage(&quot;Could not delete a file&quot;);
+										
+									}
+									else{
+										this.sendMessage(&quot;550 File not found&quot;);
+									}
+
+								} 
+								else if (message.matches(&quot;MKD.*&quot;)) {
+									
+									File file = new File(currentPath + &quot;\\&quot; +  filename);
+									if(file.exists()){
+										this.sendMessage(&quot;550 Already exists&quot;);										
+									}
+									else{
+										if(file.mkdir())
+											this.sendMessage(&quot;257 &quot;+ filename + &quot; created successfully&quot;);
+										else
+											this.sendMessage(&quot;550 Could not create a directory&quot;);
+									}
+									
+								}
+								else if (message.matches(&quot;RMD.*&quot;)) {
+									
+									File file = new File(currentPath + &quot;\\&quot; +  filename);
+									
+									if(file.exists()){
+										if(file.isDirectory()){
+											
+											if(file.delete()){
+												this.sendMessage(&quot;257 &quot;+ filename + &quot; deleted successfully&quot;);
+											}
+											else{
+												this.sendMessage(&quot;550 Could not delete a directory&quot;);
+											}
+											
+										}
+										else{
+											this.sendMessage(&quot;550 &quot; + filename + &quot; is not a directory&quot;);
+										}
+									}
+									else{
+
+											this.sendMessage(&quot;550 &quot; + filename + &quot; does not exist&quot;);
+									}
+
+								}
+								else{
+									this.sendMessage(&quot;500 Syntax error, command unrecognized.&quot;);
+								}
+								
+							}
+						}
+					}
+					while( line1.compareTo(&quot;QUIT&quot;) != 0 );
+					this.sendMessage(&quot;221 Bye&quot;);
+				}
+				else{
+					//LOGIN failed
+					this.sendMessage(&quot;530 Login incorrect.&quot;);
+				}	
+			}
+			else{
+				//PASS expected
+				this.sendMessage(&quot;503 Bad sequence of commands.&quot;);	
+			}
+		}
+		else{
+			//USER expected
+			this.sendMessage(&quot;503 Bad sequence of commands.&quot;);	
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772bUYb_EeOJZ_Ts3WWLLA" name="checkIfIsAFile" specification="_77BU4Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_772bUob_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_772bU4b_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (file.isFile())
+			return &quot;file&quot;;
+		else
+			return &quot;dir&quot;;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772bVIb_EeOJZ_Ts3WWLLA" name="MLSD" specification="_7nqUAIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_772bVYb_EeOJZ_Ts3WWLLA" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_772bVob_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>dir = new File(currentPath);
+		List&lt;String> fileList = new ArrayList&lt;String>();
+		for (File s : dir.listFiles()) {
+			fileList.add(&quot;type=&quot; + checkIfIsAFile(s) + &quot;;modify=&quot; + s.lastModified() + &quot;; &quot; + s.getName());
+		}
+
+		this.sendMessage(&quot;150 Opening data channel for directory listing of &quot; + currentPath);
+		fileTransferConnection.sendFileList(fileList);
+		this.sendMessage(&quot;226 Successfully transferred &quot; + currentPath);
+
+		return null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_773CYIb_EeOJZ_Ts3WWLLA" name="isCorrectLoginPassword" specification="_7nsJMIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_773CYYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_773CYob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_773CY4b_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {
+			return connection.checkPassword(username, password);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return false;
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_773CZIb_EeOJZ_Ts3WWLLA" name="RETR" specification="_77B78Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_773CZYb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>this.sendMessage(&quot;150 Opening data channel for file download from server of &quot; + file.getName());
+		fileTransferConnection.sendFile(file);
+		this.sendMessage(&quot;226 Successfully transferred &quot; + file.getName());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_773pcIb_EeOJZ_Ts3WWLLA" name="STOR" specification="_77CjAIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_773pcYb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>this.sendMessage(&quot;150 Opening data channel for file upload to server of &quot; + file.getName());
+		fileTransferConnection.retriveFile(file);
+		this.sendMessage(&quot;226 Successfully transferred &quot; + file.getName());
+	
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7nn3wIb_EeOJZ_Ts3WWLLA" name="handleConnection" visibility="protected" method="_772bUIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_7nqUAIb_EeOJZ_Ts3WWLLA" name="MLSD" visibility="private" method="_772bVIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78UVYIb_EeOJZ_Ts3WWLLA">
+            <body>Funkcja LIST
+         * @return Lista plikow
+         * @throws IOException gdy nie udaĹ‚o sie wysĹ‚ac listy
+         * @see FileTransferConnection</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7nq7EIb_EeOJZ_Ts3WWLLA" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7nq7EYb_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7nsJMIb_EeOJZ_Ts3WWLLA" name="isCorrectLoginPassword" visibility="private" method="_773CYIb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78UVYYb_EeOJZ_Ts3WWLLA">
+            <body>Sprawdza czy podano prawidlowa nazwe uzytkownika i haslo
+         * @param username nazwa
+         * @param password haslo
+         * @return true gdy sie udalo
+         * @see sql.SQLConnection</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7nsJMYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7nsJMob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7nswQIb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77AGwYb_EeOJZ_Ts3WWLLA" name="CommunicationConnectionHandler" method="_7710QIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_77At0Yb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_77At0ob_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_78TuUIb_EeOJZ_Ts3WWLLA">
+            <body>@inheritDoc
+         * @param socketToHandle</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_77At0Ib_EeOJZ_Ts3WWLLA" name="socketToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_77At04b_EeOJZ_Ts3WWLLA" type="_7nk0cIb_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77BU4Ib_EeOJZ_Ts3WWLLA" name="checkIfIsAFile" visibility="private" method="_772bUYb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78TuUYb_EeOJZ_Ts3WWLLA">
+            <body>Sprawdza czy plik jest katalogiem czy plikiem
+         * @param file podany plik
+         * @return string file lub dir</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_77BU4Yb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_77BU4ob_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77B78Ib_EeOJZ_Ts3WWLLA" name="RETR" method="_773CZIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78UVYob_EeOJZ_Ts3WWLLA">
+            <body>Odbierz plik
+         * @param file podany plik
+         * @throws IOException gdy nie udalo sie otworzyc pliku</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_77B78Yb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77CjAIb_EeOJZ_Ts3WWLLA" name="STOR" method="_773pcIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78UVY4b_EeOJZ_Ts3WWLLA">
+            <body>Dodaj plik
+         * @param file plik do dodania
+         * @throws IOException gdy nie udalo sie otworzyc pliku</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_77CjAYb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7oCHcIb_EeOJZ_Ts3WWLLA" clientDependency="_77EYMYb_EeOJZ_Ts3WWLLA" name="ConnectionHandler" isAbstract="true">
+        <ownedComment xmi:id="_78UVZIb_EeOJZ_Ts3WWLLA">
+          <body>Klasa bazowa implementujÄ…ca threadPool serwera.
+@author redi
+@version 1.0
+@see ftp.CommunicationConnectionHandler</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_77aWcIb_EeOJZ_Ts3WWLLA" name="socketToHandle" visibility="protected" type="_751pIYb_EeOJZ_Ts3WWLLA" association="_79I0wYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77aWcob_EeOJZ_Ts3WWLLA" name="out" visibility="protected" type="_75_aIYb_EeOJZ_Ts3WWLLA" association="_79KC4Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77a9gYb_EeOJZ_Ts3WWLLA" name="in" visibility="protected" type="_75-MAIb_EeOJZ_Ts3WWLLA" association="_79Kp8Ib_EeOJZ_Ts3WWLLA"/>
+        <interfaceRealization xmi:id="_77EYMYb_EeOJZ_Ts3WWLLA" client="_7oCHcIb_EeOJZ_Ts3WWLLA" supplier="_77DxIYb_EeOJZ_Ts3WWLLA" contract="_77DxIYb_EeOJZ_Ts3WWLLA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7743kIb_EeOJZ_Ts3WWLLA" name="ConnectionHandler" specification="_77E_QIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7743kYb_EeOJZ_Ts3WWLLA" name="socketToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_7743kob_EeOJZ_Ts3WWLLA" type="_7oCHcIb_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>this.socketToHandle = socketToHandle;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_775eoIb_EeOJZ_Ts3WWLLA" name="readMessage" specification="_7oFKwIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_775eoYb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String inputLine = in.readLine();
+		
+		
+		return inputLine;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_776FsIb_EeOJZ_Ts3WWLLA" name="sendMessage" specification="_7oFx0Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_776FsYb_EeOJZ_Ts3WWLLA" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>out.println(message);
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_776Fsob_EeOJZ_Ts3WWLLA" name="run" specification="_7oHnAIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>try {
+			out = new PrintWriter(socketToHandle.getOutputStream(), true);
+			in = new BufferedReader(new InputStreamReader(socketToHandle.getInputStream()));;
+			
+			handleConnection();
+			
+			out.close();
+			in.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7oFKwIb_EeOJZ_Ts3WWLLA" name="readMessage" visibility="protected" method="_775eoIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7oFKwYb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7oFx0Ib_EeOJZ_Ts3WWLLA" name="sendMessage" visibility="protected" method="_776FsIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7oGY4Ib_EeOJZ_Ts3WWLLA" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7oGY4Yb_EeOJZ_Ts3WWLLA" name="handleConnection" visibility="protected" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_7oHnAIb_EeOJZ_Ts3WWLLA" name="run" method="_776Fsob_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_77E_QIb_EeOJZ_Ts3WWLLA" name="ConnectionHandler" method="_7743kIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_77FmUIb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_77FmUYb_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_77E_QYb_EeOJZ_Ts3WWLLA" name="socketToHandle" type="_751pIYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_77FmUob_EeOJZ_Ts3WWLLA" type="_7oCHcIb_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7oO7wIb_EeOJZ_Ts3WWLLA" name="FTPMain">
+        <ownedComment xmi:id="_78U8cIb_EeOJZ_Ts3WWLLA">
+          <body>GĹ‚owny program otwierajacy serwer
+@author redi
+@version 1.0
+@see ftp.CommunicationConnectionHandler</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_777T0Ib_EeOJZ_Ts3WWLLA" name="main" specification="_7oPi0Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_777T0Yb_EeOJZ_Ts3WWLLA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_777T0ob_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>CommunicationConnection ftpServer = new CommunicationConnection(3029);
+
+		ftpServer.startListening();
+
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7oPi0Ib_EeOJZ_Ts3WWLLA" name="main" isStatic="true" method="_777T0Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7oPi0Yb_EeOJZ_Ts3WWLLA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7oQJ4Ib_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7oQw8Ib_EeOJZ_Ts3WWLLA" name="FileTransferConnection">
+        <ownedComment xmi:id="_78U8cYb_EeOJZ_Ts3WWLLA">
+          <body>PoĹ‚aczenie do przesylania danych.&#xD;
+@version 1.0&#xD;
+@author redi</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_77bkkIb_EeOJZ_Ts3WWLLA" name="incomingConnection" type="_751pIYb_EeOJZ_Ts3WWLLA" association="_79LRAYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77bkkob_EeOJZ_Ts3WWLLA" name="serverSocket" type="_751CEYb_EeOJZ_Ts3WWLLA" association="_79L4EYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77cLoYb_EeOJZ_Ts3WWLLA" name="out" visibility="protected" type="_75_aIYb_EeOJZ_Ts3WWLLA" association="_79MfIYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77cysIb_EeOJZ_Ts3WWLLA" name="in" visibility="protected" type="_75-MAIb_EeOJZ_Ts3WWLLA" association="_79NGMYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77cysob_EeOJZ_Ts3WWLLA" name="port">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_77764Ib_EeOJZ_Ts3WWLLA" name="openStreams" specification="_7oTNMIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>out = new PrintWriter(incomingConnection.getOutputStream(), true);&#xD;
+		in = new BufferedReader(new InputStreamReader(incomingConnection.getInputStream()));;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_778h8Ib_EeOJZ_Ts3WWLLA" name="closeStreams" specification="_7oT0QIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>if(out != null &amp;&amp; in!= null){&#xD;
+			out.close();&#xD;
+			in.close();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_778h8Yb_EeOJZ_Ts3WWLLA" name="FileTransferConnection" specification="_7oVCYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_778h8ob_EeOJZ_Ts3WWLLA" name="port">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_778h84b_EeOJZ_Ts3WWLLA" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>this.port = port;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_778h9Ib_EeOJZ_Ts3WWLLA" name="openSocket" specification="_7oVpcIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_778h9Yb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>serverSocket = new ServerSocket(port, 5);&#xD;
+		return true;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_779JAIb_EeOJZ_Ts3WWLLA" name="sendFileList" specification="_77HbgIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_779JAYb_EeOJZ_Ts3WWLLA" name="fileList" type="_755TgYb_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>openStreams();&#xD;
+		for(String s : fileList){&#xD;
+			out.write(s + &quot;\n&quot;);&#xD;
+		}&#xD;
+		closeStreams();&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_779JAob_EeOJZ_Ts3WWLLA" name="sendFile" specification="_77IpoYb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_779JA4b_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>BufferedInputStream in = new BufferedInputStream(new FileInputStream(file));&#xD;
+		BufferedOutputStream out = new BufferedOutputStream(incomingConnection.getOutputStream());&#xD;
+		&#xD;
+		send(out, in);&#xD;
+		&#xD;
+		out.close();&#xD;
+		in.close();&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_779JBIb_EeOJZ_Ts3WWLLA" name="retriveFile" specification="_77JQsIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_779JBYb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>OutputStream out = new FileOutputStream(file.getAbsolutePath());&#xD;
+		InputStream fileIn = incomingConnection.getInputStream();&#xD;
+		&#xD;
+		copy(fileIn, out);&#xD;
+		&#xD;
+		out.close();&#xD;
+		fileIn.close();&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_779wEIb_EeOJZ_Ts3WWLLA" name="copy" specification="_77J3wIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_779wEYb_EeOJZ_Ts3WWLLA" name="in" type="_76E5sYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_779wEob_EeOJZ_Ts3WWLLA" name="out" type="_76FgwYb_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>byte[] buf = new byte[8192];&#xD;
+		int len = 0;&#xD;
+		while ((len = in.read(buf)) != -1) {&#xD;
+			out.write(buf, 0, len);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_779wE4b_EeOJZ_Ts3WWLLA" name="send" specification="_77Ke0Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_779wFIb_EeOJZ_Ts3WWLLA" name="out" type="_76DEgYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_779wFYb_EeOJZ_Ts3WWLLA" name="input" type="_76CdcIb_EeOJZ_Ts3WWLLA"/>
+          <language>java</language>
+          <body>byte[] buffer = new byte[4096];&#xD;
+		int bytesRead = 0;&#xD;
+		while ((bytesRead = input.read(buffer)) != -1) {&#xD;
+			out.write(buffer, 0, bytesRead);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_77-XIIb_EeOJZ_Ts3WWLLA" name="startListening" specification="_7oc-MIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>if (openSocket()) {&#xD;
+&#xD;
+			incomingConnection = null;&#xD;
+&#xD;
+			incomingConnection = serverSocket.accept();&#xD;
+&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7oTNMIb_EeOJZ_Ts3WWLLA" name="openStreams" visibility="private" method="_77764Ib_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_7oT0QIb_EeOJZ_Ts3WWLLA" name="closeStreams" visibility="private" method="_778h8Ib_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_7oVCYIb_EeOJZ_Ts3WWLLA" name="FileTransferConnection" method="_778h8Yb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_7oVCYob_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7oVCY4b_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7oVCYYb_EeOJZ_Ts3WWLLA" name="port">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7oVCZIb_EeOJZ_Ts3WWLLA" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7oVpcIb_EeOJZ_Ts3WWLLA" name="openSocket" visibility="private" method="_778h9Ib_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7oVpcYb_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7oc-MIb_EeOJZ_Ts3WWLLA" name="startListening" method="_77-XIIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_77HbgIb_EeOJZ_Ts3WWLLA" name="sendFileList" method="_779JAIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77HbgYb_EeOJZ_Ts3WWLLA" name="fileList" type="_755TgYb_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77IpoYb_EeOJZ_Ts3WWLLA" name="sendFile" method="_779JAob_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77Ipoob_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77JQsIb_EeOJZ_Ts3WWLLA" name="retriveFile" method="_779JBIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77JQsYb_EeOJZ_Ts3WWLLA" name="file" type="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77J3wIb_EeOJZ_Ts3WWLLA" name="copy" visibility="private" method="_779wEIb_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77J3wYb_EeOJZ_Ts3WWLLA" name="in" type="_76E5sYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_77J3wob_EeOJZ_Ts3WWLLA" name="out" type="_76FgwYb_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_77Ke0Ib_EeOJZ_Ts3WWLLA" name="send" visibility="private" method="_779wE4b_EeOJZ_Ts3WWLLA" raisedException="_75zz8Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77Ke0Yb_EeOJZ_Ts3WWLLA" name="out" type="_76DEgYb_EeOJZ_Ts3WWLLA"/>
+          <ownedParameter xmi:id="_77Ke0ob_EeOJZ_Ts3WWLLA" name="input" type="_76CdcIb_EeOJZ_Ts3WWLLA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_78zdkIb_EeOJZ_Ts3WWLLA" name="" memberEnd="_78zdkYb_EeOJZ_Ts3WWLLA _77Vd8Ib_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_78zdkYb_EeOJZ_Ts3WWLLA" name="" type="_7nacYIb_EeOJZ_Ts3WWLLA" association="_78zdkIb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79GYgYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79GYgob_EeOJZ_Ts3WWLLA _77WsEYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79GYgob_EeOJZ_Ts3WWLLA" name="" type="_7nacYIb_EeOJZ_Ts3WWLLA" association="_79GYgYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79G_kYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79G_kob_EeOJZ_Ts3WWLLA _77X6MIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79G_kob_EeOJZ_Ts3WWLLA" name="" type="_7nk0cIb_EeOJZ_Ts3WWLLA" association="_79G_kYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79HmoYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Hmoob_EeOJZ_Ts3WWLLA _77YhQIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Hmoob_EeOJZ_Ts3WWLLA" name="" type="_7nk0cIb_EeOJZ_Ts3WWLLA" association="_79HmoYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79INsYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79INsob_EeOJZ_Ts3WWLLA _77ZvYIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79INsob_EeOJZ_Ts3WWLLA" name="" type="_7nk0cIb_EeOJZ_Ts3WWLLA" association="_79INsYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79I0wYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79I0wob_EeOJZ_Ts3WWLLA _77aWcIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79I0wob_EeOJZ_Ts3WWLLA" name="" type="_7oCHcIb_EeOJZ_Ts3WWLLA" association="_79I0wYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79KC4Ib_EeOJZ_Ts3WWLLA" name="" memberEnd="_79KC4Yb_EeOJZ_Ts3WWLLA _77aWcob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79KC4Yb_EeOJZ_Ts3WWLLA" name="" type="_7oCHcIb_EeOJZ_Ts3WWLLA" association="_79KC4Ib_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79Kp8Ib_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Kp8Yb_EeOJZ_Ts3WWLLA _77a9gYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Kp8Yb_EeOJZ_Ts3WWLLA" name="" type="_7oCHcIb_EeOJZ_Ts3WWLLA" association="_79Kp8Ib_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79LRAYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79LRAob_EeOJZ_Ts3WWLLA _77bkkIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79LRAob_EeOJZ_Ts3WWLLA" name="" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" association="_79LRAYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79L4EYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79L4Eob_EeOJZ_Ts3WWLLA _77bkkob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79L4Eob_EeOJZ_Ts3WWLLA" name="" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" association="_79L4EYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79MfIYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79MfIob_EeOJZ_Ts3WWLLA _77cLoYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79MfIob_EeOJZ_Ts3WWLLA" name="" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" association="_79MfIYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79NGMYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79NGMob_EeOJZ_Ts3WWLLA _77cysIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79NGMob_EeOJZ_Ts3WWLLA" name="" type="_7oQw8Ib_EeOJZ_Ts3WWLLA" association="_79NGMYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7etzYIb_EeOJZ_Ts3WWLLA" name="sql">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pZZYIb_EeOJZ_Ts3WWLLA" name="SQLConnection">
+        <ownedComment xmi:id="_78Ym0ob_EeOJZ_Ts3WWLLA">
+          <body>Klasa odpowiadajaca za polaczenie z serwerem sql.
+@see sql.SQLException
+@author redi
+@version 1.0</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_77nKwIb_EeOJZ_Ts3WWLLA" name="address" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77oY4Ib_EeOJZ_Ts3WWLLA" name="connection" visibility="private" type="_76ty4Ib_EeOJZ_Ts3WWLLA" association="_79ahkYb_EeOJZ_Ts3WWLLA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77o_8Ib_EeOJZ_Ts3WWLLA" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77pnAIb_EeOJZ_Ts3WWLLA" name="statement" visibility="private" type="_76voEYb_EeOJZ_Ts3WWLLA" association="_79bIoYb_EeOJZ_Ts3WWLLA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77pnAYb_EeOJZ_Ts3WWLLA" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77qOEYb_EeOJZ_Ts3WWLLA" name="resultset" visibility="private" type="_76vBAYb_EeOJZ_Ts3WWLLA" association="_79bvsYb_EeOJZ_Ts3WWLLA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77qOEob_EeOJZ_Ts3WWLLA" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_78Ym04b_EeOJZ_Ts3WWLLA" name="username" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_78Z08Ib_EeOJZ_Ts3WWLLA" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78IvMIb_EeOJZ_Ts3WWLLA" name="SQLConnection" specification="_7pdDwIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78IvMYb_EeOJZ_Ts3WWLLA" name="address">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78IvMob_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78IvM4b_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78IvNIb_EeOJZ_Ts3WWLLA" type="_7pZZYIb_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>this.address = address;
+		this.username = username;
+		this.password = password;
+		
+		
+		////////////////////////////////////////to-do
+//		this.address = &quot;jdbc:mysql://mysql.agh.edu.pl:3306/redi&quot;;
+//		this.username = &quot;redi&quot;;
+//		this.password = &quot;WxP3abrB&quot;;
+		
+		connect();
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78JWQIb_EeOJZ_Ts3WWLLA" name="addUserToGroup" specification="_7peR4Ib_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78JWQYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78JWQob_EeOJZ_Ts3WWLLA" name="groupname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>statement = connection.createStatement();
+		
+//		statement.executeUpdate(&quot;INSERT INTO usergroup (user_id, group_id) VALUES (SELECT id FROM users WHERE username='redi', SELECT id FROM groups WHERE group='admin' )&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78JWQ4b_EeOJZ_Ts3WWLLA" name="createNewGroup" specification="_7pgHEIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78JWRIb_EeOJZ_Ts3WWLLA" name="groupname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>statement = connection.createStatement();
+		
+		statement.executeUpdate(&quot;INSERT INTO `groups` (`group`) VALUES ('&quot; + groupname + &quot;')&quot; );
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78J9UIb_EeOJZ_Ts3WWLLA" name="checkPassword" specification="_7phVMIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78J9UYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78J9Uob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78J9U4b_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>statement = connection.createStatement();
+		
+		resultset = statement.executeQuery(
+				&quot;SELECT `password`=PASSWORD(CONCAT(PASSWORD('&quot;+password+&quot;'),`salt`)) FROM `users` WHERE `username`='&quot;+username+&quot;'&quot;
+		);
+		
+		while(resultset.next()){
+			
+			if(resultset.getString(1).compareTo(&quot;1&quot;) == 0)
+				return true;
+			else
+				return false;
+		}
+		
+		return false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78J9VIb_EeOJZ_Ts3WWLLA" name="listUsers" specification="_7ph8QIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78J9VYb_EeOJZ_Ts3WWLLA" type="_76XNkYb_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>Vector &lt;String> userListVector  = new Vector&lt;String>();
+
+		statement = connection.createStatement();
+		
+		resultset = statement.executeQuery(&quot;SELECT username FROM users&quot;);
+		
+		while(resultset.next()){
+			String name = resultset.getString(1);
+			userListVector.add(&quot;Uzytkownik: &quot; + name);
+		}
+
+		return userListVector;
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78KkYIb_EeOJZ_Ts3WWLLA" name="addUser" specification="_7pkYgIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78KkYYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78KkYob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78KkY4b_EeOJZ_Ts3WWLLA" name="salt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>statement = connection.createStatement();
+		
+		
+		statement.executeUpdate(
+				
+				&quot;INSERT INTO `users`(`username`, `password`, `salt`) VALUES ('&quot;+ username +&quot;',PASSWORD(CONCAT(PASSWORD('&quot; + password + &quot;'),'&quot;+salt+&quot;')),'&quot;+ salt +&quot;')&quot;				
+				
+		);
+					
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78KkZIb_EeOJZ_Ts3WWLLA" name="createTables" specification="_7plmoIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>statement = connection.createStatement();
+		
+		statement.executeUpdate(
+			&quot;CREATE TABLE IF NOT EXISTS `users` ( &quot;+
+			  &quot;`id` int(1) NOT NULL AUTO_INCREMENT,&quot;+
+			  &quot;`username` varchar(10) NOT NULL,&quot;+
+			  &quot;`password` varchar(45) NOT NULL,&quot;+
+			  &quot;`salt` varchar(20) NOT NULL,&quot;+
+			  &quot;PRIMARY KEY  (`id`),&quot;+
+			  &quot;UNIQUE KEY `username` (`username`)&quot;+
+			&quot;) ENGINE=MyISAM  DEFAULT CHARSET=latin2 AUTO_INCREMENT=3 ;&quot;
+		);
+		
+		statement.executeUpdate(	
+			&quot;CREATE TABLE IF NOT EXISTS `groups` (&quot;+
+			  &quot;`id` int(1) NOT NULL AUTO_INCREMENT,&quot;+
+			  &quot;`group` varchar(10) NOT NULL,&quot;+
+			  &quot;PRIMARY KEY  (`id`),&quot;+
+			  &quot;UNIQUE KEY `group` (`group`)&quot;+
+			&quot;) ENGINE=MyISAM  DEFAULT CHARSET=latin2 AUTO_INCREMENT=2 ;&quot;
+		);
+		
+		// dumping data for groups
+		
+		statement.executeUpdate(
+			&quot;INSERT INTO `groups` (`id`, `group`) VALUES&quot;+
+			&quot;(1, 'admin');&quot;
+		);
+		
+		statement.executeUpdate(
+			&quot;CREATE TABLE IF NOT EXISTS `files` (&quot;+
+			  &quot;`id` int(11) NOT NULL AUTO_INCREMENT,&quot;+
+			  &quot;`filename` varchar(50) NOT NULL,&quot;+
+			  &quot;`owner_id` int(11) NOT NULL,&quot;+
+			  &quot;`group_id` int(11) NOT NULL,&quot;+
+			  &quot;`user_read` tinyint(1) NOT NULL DEFAULT '1',&quot;+
+			  &quot;`user_write` tinyint(1) NOT NULL DEFAULT '1',&quot;+
+			  &quot;`group_read` tinyint(1) NOT NULL DEFAULT '0',&quot;+
+			  &quot;`group_write` tinyint(1) NOT NULL DEFAULT '0',&quot;+
+			  &quot;PRIMARY KEY  (`id`),&quot;+
+			  &quot;UNIQUE KEY `filename` (`filename`)&quot;+
+			&quot;) ENGINE=MyISAM  DEFAULT CHARSET=latin2 AUTO_INCREMENT=2 ;&quot;
+		);
+		
+		statement.executeUpdate(
+			&quot;CREATE TABLE IF NOT EXISTS `usergroup` (&quot;+
+			&quot;`user_id` int(11) NOT NULL,&quot;+
+			&quot;`group_id` int(11) NOT NULL&quot;+
+			&quot;) ENGINE=MyISAM DEFAULT CHARSET=latin2;&quot;				
+		);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78KkZYb_EeOJZ_Ts3WWLLA" name="connect" specification="_7pmNsIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>try {
+			Class.forName(&quot;com.mysql.jdbc.Driver&quot;).newInstance();
+			
+			connection = DriverManager.getConnection(this.address, this.username, this.password);
+			
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7pdDwIb_EeOJZ_Ts3WWLLA" name="SQLConnection" method="_78IvMIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_7pdDxIb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7pdDxYb_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7pdDwYb_EeOJZ_Ts3WWLLA" name="address">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pdDwob_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pdDw4b_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pdq0Ib_EeOJZ_Ts3WWLLA" type="_7pZZYIb_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7peR4Ib_EeOJZ_Ts3WWLLA" name="addUserToGroup" method="_78JWQIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7pe48Ib_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pe48Yb_EeOJZ_Ts3WWLLA" name="groupname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pgHEIb_EeOJZ_Ts3WWLLA" name="createNewGroup" method="_78JWQ4b_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7pgHEYb_EeOJZ_Ts3WWLLA" name="groupname">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7phVMIb_EeOJZ_Ts3WWLLA" name="checkPassword" method="_78J9UIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7phVMYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7phVMob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7phVM4b_EeOJZ_Ts3WWLLA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7ph8QIb_EeOJZ_Ts3WWLLA" name="listUsers" method="_78J9VIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_77RzkIb_EeOJZ_Ts3WWLLA" type="_76XNkYb_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pkYgIb_EeOJZ_Ts3WWLLA" name="addUser" method="_78KkYIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_7pkYgYb_EeOJZ_Ts3WWLLA" name="username">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pkYgob_EeOJZ_Ts3WWLLA" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pkYg4b_EeOJZ_Ts3WWLLA" name="salt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7plmoIb_EeOJZ_Ts3WWLLA" name="createTables" method="_78KkZIb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA"/>
+        <ownedOperation xmi:id="_7pmNsIb_EeOJZ_Ts3WWLLA" name="connect" visibility="private" method="_78KkZYb_EeOJZ_Ts3WWLLA" raisedException="_754FYIb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pya8Ib_EeOJZ_Ts3WWLLA" name="SQLException">
+        <generalization xmi:id="_77TowYb_EeOJZ_Ts3WWLLA" general="_77TBsIb_EeOJZ_Ts3WWLLA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78MZkIb_EeOJZ_Ts3WWLLA" name="SQLException" specification="_7pzpEIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78MZkYb_EeOJZ_Ts3WWLLA" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_78MZkob_EeOJZ_Ts3WWLLA" type="_7pya8Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>super(message);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7pzpEIb_EeOJZ_Ts3WWLLA" name="SQLException" method="_78MZkIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_7p0QIIb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7p0QIYb_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7pzpEYb_EeOJZ_Ts3WWLLA" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7p0QIob_EeOJZ_Ts3WWLLA" type="_7pya8Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79ahkYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79ahkob_EeOJZ_Ts3WWLLA _77oY4Ib_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79ahkob_EeOJZ_Ts3WWLLA" name="" type="_7pZZYIb_EeOJZ_Ts3WWLLA" association="_79ahkYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79bIoYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79bIoob_EeOJZ_Ts3WWLLA _77pnAIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79bIoob_EeOJZ_Ts3WWLLA" name="" type="_7pZZYIb_EeOJZ_Ts3WWLLA" association="_79bIoYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79bvsYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79bvsob_EeOJZ_Ts3WWLLA _77qOEYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79bvsob_EeOJZ_Ts3WWLLA" name="" type="_7pZZYIb_EeOJZ_Ts3WWLLA" association="_79bvsYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7hgosIb_EeOJZ_Ts3WWLLA" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_7hgosYb_EeOJZ_Ts3WWLLA" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_7hgosob_EeOJZ_Ts3WWLLA" name="border">
+          <packagedElement xmi:type="uml:Class" xmi:id="_76PRwYb_EeOJZ_Ts3WWLLA" name="EmptyBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_76Zp0Yb_EeOJZ_Ts3WWLLA" name="TitledBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_76aQ4Yb_EeOJZ_Ts3WWLLA" name="LineBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_76bfAYb_EeOJZ_Ts3WWLLA" name="EtchedBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_7hhPwIb_EeOJZ_Ts3WWLLA" name="GroupLayout">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_76RG8Yb_EeOJZ_Ts3WWLLA" name="Alignment"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_7hh20Ib_EeOJZ_Ts3WWLLA" name="LayoutStyle">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_76UKQYb_EeOJZ_Ts3WWLLA" name="ComponentPlacement"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76ODoYb_EeOJZ_Ts3WWLLA" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76OqsYb_EeOJZ_Ts3WWLLA" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76P40Yb_EeOJZ_Ts3WWLLA" name="DefaultListModel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76Qf4Yb_EeOJZ_Ts3WWLLA" name="GroupLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76SVEYb_EeOJZ_Ts3WWLLA" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76S8IYb_EeOJZ_Ts3WWLLA" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76TjMYb_EeOJZ_Ts3WWLLA" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76UxUYb_EeOJZ_Ts3WWLLA" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76X0oYb_EeOJZ_Ts3WWLLA" name="JPasswordField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76YbsYb_EeOJZ_Ts3WWLLA" name="JTree"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_76ZCwYb_EeOJZ_Ts3WWLLA" name="JList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7ibOsIb_EeOJZ_Ts3WWLLA" name="gui">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7otc4Ib_EeOJZ_Ts3WWLLA" name="mainWindow">
+        <ownedComment xmi:id="_78WKkIb_EeOJZ_Ts3WWLLA">
+          <body>Glowne okno programu zarzadania uzytkownikami.
+@author redi
+@see ftp.FileTransferConnection
+@see ftp.CommunicationConnectionHandler</body>
+        </ownedComment>
+        <generalization xmi:id="_77OwQIb_EeOJZ_Ts3WWLLA" general="_76ODoYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77eA0Ib_EeOJZ_Ts3WWLLA" name="SQL_ADDRESS" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_77eA0Yb_EeOJZ_Ts3WWLLA" value="&quot;jdbc:mysql://mysql.agh.edu.pl:3306/redi&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77eA04b_EeOJZ_Ts3WWLLA" name="username" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77en4Yb_EeOJZ_Ts3WWLLA" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_77fO8Ib_EeOJZ_Ts3WWLLA" name="contentPane" visibility="private" type="_76OqsYb_EeOJZ_Ts3WWLLA" association="_79NtQYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77fO8ob_EeOJZ_Ts3WWLLA" name="loginpanel" visibility="private" type="_76OqsYb_EeOJZ_Ts3WWLLA" association="_79OUUYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77f2AYb_EeOJZ_Ts3WWLLA" name="txtUsername" visibility="private" type="_76TjMYb_EeOJZ_Ts3WWLLA" association="_79O7YYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77f2A4b_EeOJZ_Ts3WWLLA" name="passwordField" visibility="private" type="_76X0oYb_EeOJZ_Ts3WWLLA" association="_79QJgYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77gdEYb_EeOJZ_Ts3WWLLA" name="sqlconn" visibility="private" type="_7pZZYIb_EeOJZ_Ts3WWLLA" association="_79QwkYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77hEIIb_EeOJZ_Ts3WWLLA" name="frame" visibility="private" isStatic="true" type="_77MUAYb_EeOJZ_Ts3WWLLA" association="_79RXoYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77hEIob_EeOJZ_Ts3WWLLA" name="logoutpanel" visibility="private" type="_76OqsYb_EeOJZ_Ts3WWLLA" association="_79R-sYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77hrMYb_EeOJZ_Ts3WWLLA" name="lblLoggedInAs" visibility="private" type="_76SVEYb_EeOJZ_Ts3WWLLA" association="_79SlwYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77hrM4b_EeOJZ_Ts3WWLLA" name="btnLogOut" visibility="private" type="_76UxUYb_EeOJZ_Ts3WWLLA" association="_79TM0Yb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77iSQYb_EeOJZ_Ts3WWLLA" name="managementpanel" visibility="private" type="_76OqsYb_EeOJZ_Ts3WWLLA" association="_79Tz4Yb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77i5UIb_EeOJZ_Ts3WWLLA" name="userList" visibility="private" isStatic="true" type="_76ZCwYb_EeOJZ_Ts3WWLLA" association="_79Ua8Yb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77jgYob_EeOJZ_Ts3WWLLA" name="adduserpanel" visibility="private" type="_76OqsYb_EeOJZ_Ts3WWLLA" association="_79VCAYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77kHcYb_EeOJZ_Ts3WWLLA" name="lblNewuserName" visibility="private" type="_76SVEYb_EeOJZ_Ts3WWLLA" association="_79VpEYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77kugIb_EeOJZ_Ts3WWLLA" name="txtNewuserName" visibility="private" isStatic="true" type="_76TjMYb_EeOJZ_Ts3WWLLA" association="_79WQIYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77kugob_EeOJZ_Ts3WWLLA" name="lblNewuserPassword" visibility="private" type="_76SVEYb_EeOJZ_Ts3WWLLA" association="_79W3MYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77lVkYb_EeOJZ_Ts3WWLLA" name="pwdNewuserPassword" visibility="private" isStatic="true" type="_76X0oYb_EeOJZ_Ts3WWLLA" association="_79YFUIb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77lVk4b_EeOJZ_Ts3WWLLA" name="lblGroup" visibility="private" type="_76SVEYb_EeOJZ_Ts3WWLLA" association="_79YsYIb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77l8oYb_EeOJZ_Ts3WWLLA" name="txtNewuserGroup" visibility="private" isStatic="true" type="_76TjMYb_EeOJZ_Ts3WWLLA" association="_79ZTcYb_EeOJZ_Ts3WWLLA"/>
+        <ownedAttribute xmi:id="_77mjsIb_EeOJZ_Ts3WWLLA" name="btnAdd" visibility="private" isStatic="true" type="_76UxUYb_EeOJZ_Ts3WWLLA" association="_79Z6gYb_EeOJZ_Ts3WWLLA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78AzYIb_EeOJZ_Ts3WWLLA" name="main" specification="_7o8tcIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78AzYYb_EeOJZ_Ts3WWLLA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_78AzYob_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					frame = new mainWindow();
+					frame.setVisible(true);
+					
+					switchControlPanelAvailability();
+//					frame.setExtendedState(frame.getExtendedState() | JFrame.MAXIMIZED_BOTH);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78BacIb_EeOJZ_Ts3WWLLA" name="mainWindow" specification="_7o-ioIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78BacYb_EeOJZ_Ts3WWLLA" type="_7otc4Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+          <language>java</language>
+          <body>setTitle(&quot;FTP Users Management&quot;);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 600, 400);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		
+		/////////////////////////////////////////////////////////////////////LOGIN PANEL//////////////////////////////////////////////////
+		loginpanel = new JPanel();
+		loginpanel.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		
+		logoutpanel = new JPanel();
+		logoutpanel.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
+		
+		managementpanel = new JPanel();
+		GroupLayout gl_contentPane = new GroupLayout(contentPane);
+		gl_contentPane.setHorizontalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
+					.addContainerGap()
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
+						.addComponent(managementpanel, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 578, Short.MAX_VALUE)
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addComponent(logoutpanel, GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE)
+							.addComponent(loginpanel, GroupLayout.DEFAULT_SIZE, 289, Short.MAX_VALUE)))
+					.addContainerGap())
+		);
+		gl_contentPane.setVerticalGroup(
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+						.addComponent(loginpanel, GroupLayout.PREFERRED_SIZE, 46, GroupLayout.PREFERRED_SIZE)
+						.addComponent(logoutpanel, GroupLayout.PREFERRED_SIZE, 46, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(managementpanel, GroupLayout.PREFERRED_SIZE, 290, Short.MAX_VALUE)
+					.addContainerGap())
+		);
+		
+		userList = new JList();
+		userList.setBorder(new LineBorder(new Color(0, 0, 0)));
+		
+		adduserpanel = new JPanel();
+		adduserpanel.setBorder(new TitledBorder(new LineBorder(new Color(0, 0, 0)), &quot;Add new user&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, new Color(51, 51, 51)));
+		GroupLayout gl_managementpanel = new GroupLayout(managementpanel);
+		gl_managementpanel.setHorizontalGroup(
+			gl_managementpanel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_managementpanel.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(userList, GroupLayout.PREFERRED_SIZE, 341, GroupLayout.PREFERRED_SIZE)
+					.addGap(18)
+					.addComponent(adduserpanel, GroupLayout.PREFERRED_SIZE, 195, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+		);
+		gl_managementpanel.setVerticalGroup(
+			gl_managementpanel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_managementpanel.createSequentialGroup()
+					.addContainerGap()
+					.addGroup(gl_managementpanel.createParallelGroup(Alignment.BASELINE)
+						.addComponent(userList, GroupLayout.PREFERRED_SIZE, 265, GroupLayout.PREFERRED_SIZE)
+						.addComponent(adduserpanel, GroupLayout.PREFERRED_SIZE, 264, GroupLayout.PREFERRED_SIZE))
+					.addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+		);
+		
+		lblNewuserName = new JLabel(&quot;Username:&quot;);
+		
+		txtNewuserName = new JTextField();
+		txtNewuserName.setColumns(15);
+		
+		lblNewuserPassword = new JLabel(&quot;Password:&quot;);
+		
+		pwdNewuserPassword = new JPasswordField();
+		pwdNewuserPassword.setColumns(15);
+		
+		lblGroup = new JLabel(&quot;Group:&quot;);
+		
+		txtNewuserGroup = new JTextField();
+		txtNewuserGroup.setColumns(15);
+		
+		btnAdd = new JButton(&quot;Add&quot;);
+		btnAdd.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				try {
+					sqlconn.addUser(txtNewuserName.getText(), pwdNewuserPassword.getText(), &quot;random&quot;);
+					sqlconn.addUserToGroup(txtNewuserName.getText(), txtNewuserGroup.getText());
+					userList.setListData(sqlconn.listUsers());
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					showErrorMessage(&quot;User cannot be created&quot;);
+				}
+				
+			}
+		});
+		GroupLayout gl_adduserpanel = new GroupLayout(adduserpanel);
+		gl_adduserpanel.setHorizontalGroup(
+			gl_adduserpanel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_adduserpanel.createSequentialGroup()
+					.addContainerGap()
+					.addGroup(gl_adduserpanel.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblNewuserName)
+						.addComponent(txtNewuserName, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblNewuserPassword)
+						.addComponent(pwdNewuserPassword, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblGroup)
+						.addComponent(txtNewuserGroup, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(btnAdd, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, 169, Short.MAX_VALUE))
+					.addContainerGap())
+		);
+		gl_adduserpanel.setVerticalGroup(
+			gl_adduserpanel.createParallelGroup(Alignment.LEADING)
+				.addGroup(gl_adduserpanel.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(lblNewuserName)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(txtNewuserName, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(lblNewuserPassword)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(pwdNewuserPassword, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(lblGroup)
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(txtNewuserGroup, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+					.addComponent(btnAdd)
+					.addContainerGap())
+		);
+		adduserpanel.setLayout(gl_adduserpanel);
+		managementpanel.setLayout(gl_managementpanel);
+		logoutpanel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		
+		lblLoggedInAs = new JLabel();
+		logoutpanel.add(lblLoggedInAs);
+		
+		btnLogOut = new JButton(&quot;Log out&quot;);
+		btnLogOut.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				sqlconn = null;
+				logoutpanel.setVisible(false);
+				loginpanel.setVisible(true);
+				switchControlPanelAvailability();
+				
+			}
+		});
+		logoutpanel.add(btnLogOut);
+		loginpanel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+		logoutpanel.setVisible(false);
+		JLabel lblUsername = new JLabel(&quot;Username:&quot;);
+		loginpanel.add(lblUsername);
+		
+		txtUsername = new JTextField(&quot;redi&quot;);
+		loginpanel.add(txtUsername);
+		txtUsername.setColumns(10);
+		
+		JLabel lblPassword = new JLabel(&quot;Password&quot;);
+		loginpanel.add(lblPassword);
+		
+		passwordField = new JPasswordField(&quot;WxP3abrB&quot;);
+		passwordField.setColumns(10);
+		loginpanel.add(passwordField);
+		
+		JButton btnLogIn = new JButton(&quot;Log in&quot;);
+		btnLogIn.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				password = passwordField.getText();
+				username = txtUsername.getText();
+				
+
+				try {
+					sqlconn = new SQLConnection(SQL_ADDRESS, username, password);
+					lblLoggedInAs.setText(&quot;Logged in as &quot; + username);
+					
+					userList.setListData(sqlconn.listUsers());
+					
+					switchControlPanelAvailability();
+					
+					logoutpanel.setVisible(true);
+					loginpanel.setVisible(false);
+					try {
+						sqlconn.listUsers();
+					} catch (SQLException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				} catch (SQLException e1) {
+					showErrorMessage(&quot;Could not connect. Incorrect address, username or password.&quot;);
+				}
+
+			}
+		});
+		loginpanel.add(btnLogIn);
+		/////////////////////////////////////////////////////////////////////LOGIN PANEL//////////////////////////////////////////////////
+		
+		contentPane.setLayout(gl_contentPane);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78Bacob_EeOJZ_Ts3WWLLA" name="showErrorMessage" specification="_7o_JsIb_EeOJZ_Ts3WWLLA">
+          <ownedParameter xmi:id="_78Bac4b_EeOJZ_Ts3WWLLA" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>JOptionPane.showMessageDialog(frame, text);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_78CBgIb_EeOJZ_Ts3WWLLA" name="switchControlPanelAvailability" specification="_7o_wwIb_EeOJZ_Ts3WWLLA">
+          <language>java</language>
+          <body>if(userList.isEnabled()){
+			
+			Vector &lt;String> emptyVector = new Vector&lt;String>();
+			userList.setListData(emptyVector);
+			
+			txtNewuserName.setText(&quot;&quot;);
+			pwdNewuserPassword.setText(&quot;&quot;);
+			txtNewuserGroup.setText(&quot;&quot;);
+			
+			userList.setEnabled(false);
+			txtNewuserName.setEnabled(false);
+			pwdNewuserPassword.setEnabled(false);
+			txtNewuserGroup.setEnabled(false);
+			btnAdd.setEnabled(false);
+			
+			
+			// TODO clear userlist
+		}
+		else{
+			
+			userList.setEnabled(true);
+			txtNewuserName.setEnabled(true);
+			pwdNewuserPassword.setEnabled(true);
+			txtNewuserGroup.setEnabled(true);
+			btnAdd.setEnabled(true);
+
+		}
+		
+	
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7o8tcIb_EeOJZ_Ts3WWLLA" name="main" isStatic="true" method="_78AzYIb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78XYsIb_EeOJZ_Ts3WWLLA">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7o9UgIb_EeOJZ_Ts3WWLLA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7o9UgYb_EeOJZ_Ts3WWLLA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7o-ioIb_EeOJZ_Ts3WWLLA" name="mainWindow" method="_78BacIb_EeOJZ_Ts3WWLLA">
+          <eAnnotations xmi:id="_7o-ioYb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7o-ioob_EeOJZ_Ts3WWLLA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_78X_wIb_EeOJZ_Ts3WWLLA">
+            <body>GĹ‚owne okno programu</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7o-io4b_EeOJZ_Ts3WWLLA" type="_7otc4Ib_EeOJZ_Ts3WWLLA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7o_JsIb_EeOJZ_Ts3WWLLA" name="showErrorMessage" visibility="private" method="_78Bacob_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78Ym0Ib_EeOJZ_Ts3WWLLA">
+            <body>Pokaz blad
+         * @param text tekst bledu</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_7o_JsYb_EeOJZ_Ts3WWLLA" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7o_wwIb_EeOJZ_Ts3WWLLA" name="switchControlPanelAvailability" visibility="private" isStatic="true" method="_78CBgIb_EeOJZ_Ts3WWLLA">
+          <ownedComment xmi:id="_78Ym0Yb_EeOJZ_Ts3WWLLA">
+            <body>Zmien dostepnosc panelu</body>
+          </ownedComment>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79NtQYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79NtQob_EeOJZ_Ts3WWLLA _77fO8Ib_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79NtQob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79NtQYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79OUUYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79OUUob_EeOJZ_Ts3WWLLA _77fO8ob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79OUUob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79OUUYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79O7YYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79O7Yob_EeOJZ_Ts3WWLLA _77f2AYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79O7Yob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79O7YYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79QJgYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79QJgob_EeOJZ_Ts3WWLLA _77f2A4b_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79QJgob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79QJgYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79QwkYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Qwkob_EeOJZ_Ts3WWLLA _77gdEYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Qwkob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79QwkYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79RXoYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79RXoob_EeOJZ_Ts3WWLLA _77hEIIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79RXoob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79RXoYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79R-sYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79R-sob_EeOJZ_Ts3WWLLA _77hEIob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79R-sob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79R-sYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79SlwYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Slwob_EeOJZ_Ts3WWLLA _77hrMYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Slwob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79SlwYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79TM0Yb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79TM0ob_EeOJZ_Ts3WWLLA _77hrM4b_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79TM0ob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79TM0Yb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79Tz4Yb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Tz4ob_EeOJZ_Ts3WWLLA _77iSQYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Tz4ob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79Tz4Yb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79Ua8Yb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Ua8ob_EeOJZ_Ts3WWLLA _77i5UIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Ua8ob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79Ua8Yb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79VCAYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79VCAob_EeOJZ_Ts3WWLLA _77jgYob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79VCAob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79VCAYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79VpEYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79VpEob_EeOJZ_Ts3WWLLA _77kHcYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79VpEob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79VpEYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79WQIYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79WQIob_EeOJZ_Ts3WWLLA _77kugIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79WQIob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79WQIYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79W3MYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79W3Mob_EeOJZ_Ts3WWLLA _77kugob_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79W3Mob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79W3MYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79YFUIb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79YFUYb_EeOJZ_Ts3WWLLA _77lVkYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79YFUYb_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79YFUIb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79YsYIb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79YsYYb_EeOJZ_Ts3WWLLA _77lVk4b_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79YsYYb_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79YsYIb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79ZTcYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79ZTcob_EeOJZ_Ts3WWLLA _77l8oYb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79ZTcob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79ZTcYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_79Z6gYb_EeOJZ_Ts3WWLLA" name="" memberEnd="_79Z6gob_EeOJZ_Ts3WWLLA _77mjsIb_EeOJZ_Ts3WWLLA">
+        <ownedEnd xmi:id="_79Z6gob_EeOJZ_Ts3WWLLA" name="" type="_7otc4Ib_EeOJZ_Ts3WWLLA" association="_79Z6gYb_EeOJZ_Ts3WWLLA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_76-RkIb_EeOJZ_Ts3WWLLA" name="main">
+      <packagedElement xmi:type="uml:Package" xmi:id="_76-RkYb_EeOJZ_Ts3WWLLA" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_76-Rkob_EeOJZ_Ts3WWLLA" name="ftp">
+          <packagedElement xmi:type="uml:Class" xmi:id="_76-Rk4b_EeOJZ_Ts3WWLLA" name="ConnectionHandler"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_76_fsIb_EeOJZ_Ts3WWLLA" name="FileTransferConnection"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_77MUAIb_EeOJZ_Ts3WWLLA" name="gui">
+          <packagedElement xmi:type="uml:Class" xmi:id="_77MUAYb_EeOJZ_Ts3WWLLA" name="mainWindow"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_7DNjIIb_EeOJZ_Ts3WWLLA">
+      <eAnnotations xmi:id="_7DNjIYb_EeOJZ_Ts3WWLLA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_7DOKMIb_EeOJZ_Ts3WWLLA" base_Package="_63SnAIb_EeOJZ_Ts3WWLLA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7noe0Ib_EeOJZ_Ts3WWLLA" base_Element="_7nn3wIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Annotations xmi:id="_7npF4Ib_EeOJZ_Ts3WWLLA" base_Element="_7nn3wIb_EeOJZ_Ts3WWLLA">
+    <annotations xmi:id="_7npF4Yb_EeOJZ_Ts3WWLLA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7oG_8Ib_EeOJZ_Ts3WWLLA" base_Element="_7oGY4Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7oHnAYb_EeOJZ_Ts3WWLLA" base_Element="_7oHnAIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Annotations xmi:id="_7oIOEIb_EeOJZ_Ts3WWLLA" base_Element="_7oHnAIb_EeOJZ_Ts3WWLLA">
+    <annotations xmi:id="_7oIOEYb_EeOJZ_Ts3WWLLA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_7o97kIb_EeOJZ_Ts3WWLLA" base_Element="_7o9UgIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Generics xmi:id="_7pijUIb_EeOJZ_Ts3WWLLA" genericsValue="String" base_Element="_7ph8QIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_75zM4Ib_EeOJZ_Ts3WWLLA" base_Element="_75yl0Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_75zz8Yb_EeOJZ_Ts3WWLLA" base_Element="_75zz8Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_751CEIb_EeOJZ_Ts3WWLLA" base_Element="_750bAIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_751pIIb_EeOJZ_Ts3WWLLA" base_Element="_751CEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_752QMIb_EeOJZ_Ts3WWLLA" base_Element="_751pIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_754scIb_EeOJZ_Ts3WWLLA" base_Element="_754FYIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_755TgIb_EeOJZ_Ts3WWLLA" base_Element="_754scYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_7556kIb_EeOJZ_Ts3WWLLA" base_Element="_755TgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_756hoIb_EeOJZ_Ts3WWLLA" base_Element="_7556kYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_75-zEIb_EeOJZ_Ts3WWLLA" base_Element="_75-MAIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_75_aIIb_EeOJZ_Ts3WWLLA" base_Element="_75-zEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76ABMIb_EeOJZ_Ts3WWLLA" base_Element="_75_aIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76DEgIb_EeOJZ_Ts3WWLLA" base_Element="_76CdcIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76DrkIb_EeOJZ_Ts3WWLLA" base_Element="_76DEgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76ESoYb_EeOJZ_Ts3WWLLA" base_Element="_76ESoIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76E5sIb_EeOJZ_Ts3WWLLA" base_Element="_76ESoob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76FgwIb_EeOJZ_Ts3WWLLA" base_Element="_76E5sYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76GH0Ib_EeOJZ_Ts3WWLLA" base_Element="_76FgwYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76ODoIb_EeOJZ_Ts3WWLLA" base_Element="_76NckIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76OqsIb_EeOJZ_Ts3WWLLA" base_Element="_76ODoYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76PRwIb_EeOJZ_Ts3WWLLA" base_Element="_76OqsYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76P40Ib_EeOJZ_Ts3WWLLA" base_Element="_76PRwYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76Qf4Ib_EeOJZ_Ts3WWLLA" base_Element="_76P40Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76RG8Ib_EeOJZ_Ts3WWLLA" base_Element="_76Qf4Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76SVEIb_EeOJZ_Ts3WWLLA" base_Element="_76RG8Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76S8IIb_EeOJZ_Ts3WWLLA" base_Element="_76SVEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76TjMIb_EeOJZ_Ts3WWLLA" base_Element="_76S8IYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76UKQIb_EeOJZ_Ts3WWLLA" base_Element="_76TjMYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76UxUIb_EeOJZ_Ts3WWLLA" base_Element="_76UKQYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76VYYIb_EeOJZ_Ts3WWLLA" base_Element="_76UxUYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76V_cIb_EeOJZ_Ts3WWLLA" base_Element="_76VYYYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76WmgIb_EeOJZ_Ts3WWLLA" base_Element="_76V_cYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76XNkIb_EeOJZ_Ts3WWLLA" base_Element="_76WmgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76X0oIb_EeOJZ_Ts3WWLLA" base_Element="_76XNkYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76YbsIb_EeOJZ_Ts3WWLLA" base_Element="_76X0oYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76ZCwIb_EeOJZ_Ts3WWLLA" base_Element="_76YbsYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76Zp0Ib_EeOJZ_Ts3WWLLA" base_Element="_76ZCwYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76aQ4Ib_EeOJZ_Ts3WWLLA" base_Element="_76Zp0Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76a38Ib_EeOJZ_Ts3WWLLA" base_Element="_76aQ4Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76bfAIb_EeOJZ_Ts3WWLLA" base_Element="_76a38Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76cGEIb_EeOJZ_Ts3WWLLA" base_Element="_76bfAYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76uZ8Ib_EeOJZ_Ts3WWLLA" base_Element="_76ty4Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76vBAIb_EeOJZ_Ts3WWLLA" base_Element="_76uZ8Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76voEIb_EeOJZ_Ts3WWLLA" base_Element="_76vBAYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76wPIIb_EeOJZ_Ts3WWLLA" base_Element="_76voEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_76-4oIb_EeOJZ_Ts3WWLLA" base_Element="_76-Rk4b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_77AGwIb_EeOJZ_Ts3WWLLA" base_Element="_76_fsIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_77EYMIb_EeOJZ_Ts3WWLLA" base_Element="_77DxIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Generics xmi:id="_77IpoIb_EeOJZ_Ts3WWLLA" genericsValue="String" base_Element="_77HbgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_77M7EIb_EeOJZ_Ts3WWLLA" base_Element="_77MUAYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_77TowIb_EeOJZ_Ts3WWLLA" base_Element="_77TBsIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77WsEIb_EeOJZ_Ts3WWLLA" base_Element="_77Vd8Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77XTIIb_EeOJZ_Ts3WWLLA" base_Element="_77WsEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77XTIob_EeOJZ_Ts3WWLLA" base_Element="_77XTIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77X6MYb_EeOJZ_Ts3WWLLA" base_Element="_77X6MIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77YhQYb_EeOJZ_Ts3WWLLA" base_Element="_77YhQIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77ZIUIb_EeOJZ_Ts3WWLLA" base_Element="_77YhQob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77ZIU4b_EeOJZ_Ts3WWLLA" base_Element="_77ZIUYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77ZvYYb_EeOJZ_Ts3WWLLA" base_Element="_77ZvYIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77aWcYb_EeOJZ_Ts3WWLLA" base_Element="_77aWcIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77a9gIb_EeOJZ_Ts3WWLLA" base_Element="_77aWcob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77a9gob_EeOJZ_Ts3WWLLA" base_Element="_77a9gYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77bkkYb_EeOJZ_Ts3WWLLA" base_Element="_77bkkIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77cLoIb_EeOJZ_Ts3WWLLA" base_Element="_77bkkob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77cLoob_EeOJZ_Ts3WWLLA" base_Element="_77cLoYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77cysYb_EeOJZ_Ts3WWLLA" base_Element="_77cysIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77dZwIb_EeOJZ_Ts3WWLLA" base_Element="_77cysob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77eA0ob_EeOJZ_Ts3WWLLA" base_Element="_77eA0Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77en4Ib_EeOJZ_Ts3WWLLA" base_Element="_77eA04b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77en4ob_EeOJZ_Ts3WWLLA" base_Element="_77en4Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77fO8Yb_EeOJZ_Ts3WWLLA" base_Element="_77fO8Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77f2AIb_EeOJZ_Ts3WWLLA" base_Element="_77fO8ob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77f2Aob_EeOJZ_Ts3WWLLA" base_Element="_77f2AYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77gdEIb_EeOJZ_Ts3WWLLA" base_Element="_77f2A4b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77gdEob_EeOJZ_Ts3WWLLA" base_Element="_77gdEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77hEIYb_EeOJZ_Ts3WWLLA" base_Element="_77hEIIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77hrMIb_EeOJZ_Ts3WWLLA" base_Element="_77hEIob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77hrMob_EeOJZ_Ts3WWLLA" base_Element="_77hrMYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77iSQIb_EeOJZ_Ts3WWLLA" base_Element="_77hrM4b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77iSQob_EeOJZ_Ts3WWLLA" base_Element="_77iSQYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Generics xmi:id="_77jgYIb_EeOJZ_Ts3WWLLA" genericsValue="String" base_Element="_77i5UIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77jgYYb_EeOJZ_Ts3WWLLA" base_Element="_77i5UIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77kHcIb_EeOJZ_Ts3WWLLA" base_Element="_77jgYob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77kHcob_EeOJZ_Ts3WWLLA" base_Element="_77kHcYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77kugYb_EeOJZ_Ts3WWLLA" base_Element="_77kugIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77lVkIb_EeOJZ_Ts3WWLLA" base_Element="_77kugob_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77lVkob_EeOJZ_Ts3WWLLA" base_Element="_77lVkYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77l8oIb_EeOJZ_Ts3WWLLA" base_Element="_77lVk4b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77l8oob_EeOJZ_Ts3WWLLA" base_Element="_77l8oYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77mjsYb_EeOJZ_Ts3WWLLA" base_Element="_77mjsIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_77nKwYb_EeOJZ_Ts3WWLLA" base_Property="_77nKwIb_EeOJZ_Ts3WWLLA" siblings="_78Ym04b_EeOJZ_Ts3WWLLA _78Z08Ib_EeOJZ_Ts3WWLLA" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77nx0Ib_EeOJZ_Ts3WWLLA" base_Element="_77nKwIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77o_8Yb_EeOJZ_Ts3WWLLA" base_Element="_77oY4Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77qOEIb_EeOJZ_Ts3WWLLA" base_Element="_77pnAIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77q1IIb_EeOJZ_Ts3WWLLA" base_Element="_77qOEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_78ZN4Ib_EeOJZ_Ts3WWLLA" base_Property="_78Ym04b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_78ZN4Yb_EeOJZ_Ts3WWLLA" base_Element="_78Ym04b_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_78gioIb_EeOJZ_Ts3WWLLA" base_Property="_78Z08Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_78hJsIb_EeOJZ_Ts3WWLLA" base_Element="_78Z08Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79GYgIb_EeOJZ_Ts3WWLLA" base_Element="_78zdkIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79G_kIb_EeOJZ_Ts3WWLLA" base_Element="_79GYgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79HmoIb_EeOJZ_Ts3WWLLA" base_Element="_79G_kYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79INsIb_EeOJZ_Ts3WWLLA" base_Element="_79HmoYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79I0wIb_EeOJZ_Ts3WWLLA" base_Element="_79INsYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79Jb0Ib_EeOJZ_Ts3WWLLA" base_Element="_79I0wYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79KC4ob_EeOJZ_Ts3WWLLA" base_Element="_79KC4Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79LRAIb_EeOJZ_Ts3WWLLA" base_Element="_79Kp8Ib_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79L4EIb_EeOJZ_Ts3WWLLA" base_Element="_79LRAYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79MfIIb_EeOJZ_Ts3WWLLA" base_Element="_79L4EYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79NGMIb_EeOJZ_Ts3WWLLA" base_Element="_79MfIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79NtQIb_EeOJZ_Ts3WWLLA" base_Element="_79NGMYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79OUUIb_EeOJZ_Ts3WWLLA" base_Element="_79NtQYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79O7YIb_EeOJZ_Ts3WWLLA" base_Element="_79OUUYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79QJgIb_EeOJZ_Ts3WWLLA" base_Element="_79O7YYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79QwkIb_EeOJZ_Ts3WWLLA" base_Element="_79QJgYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79RXoIb_EeOJZ_Ts3WWLLA" base_Element="_79QwkYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79R-sIb_EeOJZ_Ts3WWLLA" base_Element="_79RXoYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79SlwIb_EeOJZ_Ts3WWLLA" base_Element="_79R-sYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79TM0Ib_EeOJZ_Ts3WWLLA" base_Element="_79SlwYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79Tz4Ib_EeOJZ_Ts3WWLLA" base_Element="_79TM0Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79Ua8Ib_EeOJZ_Ts3WWLLA" base_Element="_79Tz4Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79VCAIb_EeOJZ_Ts3WWLLA" base_Element="_79Ua8Yb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79VpEIb_EeOJZ_Ts3WWLLA" base_Element="_79VCAYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79WQIIb_EeOJZ_Ts3WWLLA" base_Element="_79VpEYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79W3MIb_EeOJZ_Ts3WWLLA" base_Element="_79WQIYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79XeQIb_EeOJZ_Ts3WWLLA" base_Element="_79W3MYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79YFUob_EeOJZ_Ts3WWLLA" base_Element="_79YFUIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79ZTcIb_EeOJZ_Ts3WWLLA" base_Element="_79YsYIb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79Z6gIb_EeOJZ_Ts3WWLLA" base_Element="_79ZTcYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79ahkIb_EeOJZ_Ts3WWLLA" base_Element="_79Z6gYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79bIoIb_EeOJZ_Ts3WWLLA" base_Element="_79ahkYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79bvsIb_EeOJZ_Ts3WWLLA" base_Element="_79bIoYb_EeOJZ_Ts3WWLLA"/>
+  <UMLLabProfile:Reference xmi:id="_79cWwIb_EeOJZ_Ts3WWLLA" base_Element="_79bvsYb_EeOJZ_Ts3WWLLA"/>
+</xmi:XMI>

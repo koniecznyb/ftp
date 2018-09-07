@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hpDc8Ib_EeOJZ_Ts3WWLLA">
+  <modelElement href="ftp_client.uml#_d7m60Ib_EeOJZ_Ts3WWLLA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hywykIb_EeOJZ_Ts3WWLLA" name="java">
+    <modelElement href="ftp_client.uml#_f4vV4Ib_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_hywykYb_EeOJZ_Ts3WWLLA" position="50.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hzNegIb_EeOJZ_Ts3WWLLA" name="client">
+    <modelElement href="ftp_client.uml#_f4_NgIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_hzNegYb_EeOJZ_Ts3WWLLA" position="-115.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hzOsoIb_EeOJZ_Ts3WWLLA" name="gui">
+    <modelElement href="ftp_client.uml#_f5JlkIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_hzOsoYb_EeOJZ_Ts3WWLLA" position="200.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hzP6wIb_EeOJZ_Ts3WWLLA" name="javax">
+    <modelElement href="ftp_client.uml#_f5arUYb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_hzP6wYb_EeOJZ_Ts3WWLLA" position="350.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_hzQh0Ib_EeOJZ_Ts3WWLLA" name="net">
+    <modelElement href="ftp_client.uml#_gB__kYb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_hzQh0Yb_EeOJZ_Ts3WWLLA" position="-280.0,50.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

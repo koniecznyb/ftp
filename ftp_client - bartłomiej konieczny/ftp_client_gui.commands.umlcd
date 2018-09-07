@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hpXmAIb_EeOJZ_Ts3WWLLA">
+  <modelElement href="ftp_client.uml#_f5Mo4Ib_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jBrcwIb_EeOJZ_Ts3WWLLA" targetItem="_jBugGYb_EeOJZ_Ts3WWLLA" sourceItem="_jBhrwIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jBugEIb_EeOJZ_Ts3WWLLA" source="_jBugGYb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g95nIYb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDpysIb_EeOJZ_Ts3WWLLA" position="430.0,430.0"/>
+    <stereotypes xmi:id="_jBugEYb_EeOJZ_Ts3WWLLA" name="Reference">
+      <modelElement href="ftp_client.uml#_g96OMIb_EeOJZ_Ts3WWLLA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jBugEob_EeOJZ_Ts3WWLLA" text=""/>
+    <sourceRole xmi:id="_jBugE4b_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="">
+      <modelElement href="ftp_client.uml#_g95nIob_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jBugFIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <cardinality xmi:id="_jBugFYb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jBugFob_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="threadToInterrupt" navigable="true">
+      <modelElement href="ftp_client.uml#_g6l0cIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jBugF4b_EeOJZ_Ts3WWLLA" label="~"/>
+      <cardinality xmi:id="_jBugGIb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jBzYkYb_EeOJZ_Ts3WWLLA" targetItem="_jB0mv4b_EeOJZ_Ts3WWLLA" sourceItem="_jBzYkIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jB5fMYb_EeOJZ_Ts3WWLLA" targetItem="_jB6tX4b_EeOJZ_Ts3WWLLA" sourceItem="_jB5fMIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jCQEgYb_EeOJZ_Ts3WWLLA" targetItem="_jCdf4Ib_EeOJZ_Ts3WWLLA" sourceItem="_jCQEgIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCQrkIb_EeOJZ_Ts3WWLLA" sourceAnchor="221.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jBfPgIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1CmEIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVX00Ib_EeOJZ_Ts3WWLLA" sourceY="-45" targetX="773" targetY="27"/>
+    <bendpoints xmi:id="_jVYb4Ib_EeOJZ_Ts3WWLLA" sourceX="-773" sourceY="-45" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCRSoIb_EeOJZ_Ts3WWLLA" sourceAnchor="93.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jBugGYb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1OzUIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVYb4Yb_EeOJZ_Ts3WWLLA" sourceY="-188" targetX="537" targetY="27"/>
+    <bendpoints xmi:id="_jVYb4ob_EeOJZ_Ts3WWLLA" sourceX="-537" sourceY="-188" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCUV8Ib_EeOJZ_Ts3WWLLA" sourceAnchor="776.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jB0msIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1hHMIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVZC8Ib_EeOJZ_Ts3WWLLA" sourceY="-354" targetX="1086" targetY="27"/>
+    <bendpoints xmi:id="_jVZC8Yb_EeOJZ_Ts3WWLLA" sourceX="-1086" sourceY="-354" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCUV8Yb_EeOJZ_Ts3WWLLA" sourceAnchor="347.0,120.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jB6tUIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1ob8Ib_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVZC8ob_EeOJZ_Ts3WWLLA" sourceY="399" targetX="710" targetY="1124"/>
+    <bendpoints xmi:id="_jVZqAIb_EeOJZ_Ts3WWLLA" sourceX="-2086" sourceY="399" targetX="-1376" targetY="1124"/>
+    <bendpoints xmi:id="_jVZqAYb_EeOJZ_Ts3WWLLA" sourceX="-2086" sourceY="-698" targetX="-1376" targetY="27"/>
+    <bendpoints xmi:id="_jVZqAob_EeOJZ_Ts3WWLLA" sourceX="-710" sourceY="-698" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCU9AIb_EeOJZ_Ts3WWLLA" sourceAnchor="302.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jCLzEIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1rfQIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVZqA4b_EeOJZ_Ts3WWLLA" sourceY="-28" targetX="157" targetY="27"/>
+    <bendpoints xmi:id="_jVaREIb_EeOJZ_Ts3WWLLA" sourceX="-157" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jCU9AYb_EeOJZ_Ts3WWLLA" source="_jCdf4Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g96OMYb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDpysYb_EeOJZ_Ts3WWLLA" position="450.0,450.0"/>
+    <stereotypes xmi:id="_jCZ1gob_EeOJZ_Ts3WWLLA" name="Reference">
+      <modelElement href="ftp_client.uml#_g961QIb_EeOJZ_Ts3WWLLA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jCZOcIb_EeOJZ_Ts3WWLLA" text=""/>
+    <sourceRole xmi:id="_jCZ1gIb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="">
+      <modelElement href="ftp_client.uml#_g96OMob_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCbDoob_EeOJZ_Ts3WWLLA" label="+"/>
+      <cardinality xmi:id="_jCbDoYb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jCZ1gYb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="communicationSocket" navigable="true">
+      <modelElement href="ftp_client.uml#_g6o3wIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCbqsYb_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCbqsIb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jCU9Aob_EeOJZ_Ts3WWLLA" source="_jCdf4Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g97cUIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDqZwIb_EeOJZ_Ts3WWLLA" position="470.0,470.0"/>
+    <stereotypes xmi:id="_jCackob_EeOJZ_Ts3WWLLA" name="Reference">
+      <modelElement href="ftp_client.uml#_g98DYIb_EeOJZ_Ts3WWLLA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jCZ1g4b_EeOJZ_Ts3WWLLA" text=""/>
+    <sourceRole xmi:id="_jCackIb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="">
+      <modelElement href="ftp_client.uml#_g97cUYb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCbqtIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <cardinality xmi:id="_jCbqs4b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jCackYb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="fileTransferSocket" navigable="true">
+      <modelElement href="ftp_client.uml#_g6o3wob_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCbqtob_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCbqtYb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jCVkEIb_EeOJZ_Ts3WWLLA" source="_jCdf4Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g98qcIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDqZwYb_EeOJZ_Ts3WWLLA" position="490.0,490.0"/>
+    <stereotypes xmi:id="_jCbDoIb_EeOJZ_Ts3WWLLA" name="Reference">
+      <modelElement href="ftp_client.uml#_g-EmQIb_EeOJZ_Ts3WWLLA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jCack4b_EeOJZ_Ts3WWLLA" text=""/>
+    <sourceRole xmi:id="_jCaclIb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="">
+      <modelElement href="ftp_client.uml#_g98qcYb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCcRwob_EeOJZ_Ts3WWLLA" label="+"/>
+      <cardinality xmi:id="_jCcRwYb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jCaclYb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="messenger" navigable="true">
+      <modelElement href="ftp_client.uml#_g6pe0Yb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCcRxIb_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCcRw4b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCkNkIb_EeOJZ_Ts3WWLLA" sourceAnchor="153.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jCmp0Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g1yM8Yb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVaREYb_EeOJZ_Ts3WWLLA" sourceY="-195" targetX="-160" targetY="27"/>
+    <bendpoints xmi:id="_jVaREob_EeOJZ_Ts3WWLLA" sourceX="160" sourceY="-195" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jCmCwYb_EeOJZ_Ts3WWLLA" targetItem="_jCmp2ob_EeOJZ_Ts3WWLLA" sourceItem="_jCmCwIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCqUMIb_EeOJZ_Ts3WWLLA" sourceAnchor="281.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jCswcIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g11QQIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVa4IIb_EeOJZ_Ts3WWLLA" sourceY="-49" targetX="-29" targetY="353"/>
+    <bendpoints xmi:id="_jVa4IYb_EeOJZ_Ts3WWLLA" sourceX="1085" sourceY="-49" targetX="1056" targetY="353"/>
+    <bendpoints xmi:id="_jVa4Iob_EeOJZ_Ts3WWLLA" sourceX="1085" sourceY="-375" targetX="1056" targetY="27"/>
+    <bendpoints xmi:id="_jVa4I4b_EeOJZ_Ts3WWLLA" sourceX="29" sourceY="-375" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jCsJYIb_EeOJZ_Ts3WWLLA" targetItem="_jCsweob_EeOJZ_Ts3WWLLA" sourceItem="_jCriUIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jCvzwIb_EeOJZ_Ts3WWLLA" sourceAnchor="0.0,37.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jCxo8Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g146oIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVbfMIb_EeOJZ_Ts3WWLLA" sourceX="-21" targetX="-328" targetY="655"/>
+    <bendpoints xmi:id="_jVbfMYb_EeOJZ_Ts3WWLLA" sourceX="-21" sourceY="-485" targetX="-328" targetY="170"/>
+    <bendpoints xmi:id="_jVbfMob_EeOJZ_Ts3WWLLA" sourceX="117" sourceY="-485" targetX="-190" targetY="170"/>
+    <bendpoints xmi:id="_jVbfM4b_EeOJZ_Ts3WWLLA" sourceX="117" sourceY="-628" targetX="-190" targetY="27"/>
+    <bendpoints xmi:id="_jVbfNIb_EeOJZ_Ts3WWLLA" sourceX="307" sourceY="-628" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jC0FMIb_EeOJZ_Ts3WWLLA" sourceAnchor="245.0,75.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jC16YIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g16v04b_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVcGQIb_EeOJZ_Ts3WWLLA" sourceY="201" targetX="396" targetY="1094"/>
+    <bendpoints xmi:id="_jVcGQYb_EeOJZ_Ts3WWLLA" sourceX="-1742" sourceY="201" targetX="-1346" targetY="1094"/>
+    <bendpoints xmi:id="_jVcGQob_EeOJZ_Ts3WWLLA" sourceX="-1742" sourceY="-866" targetX="-1346" targetY="27"/>
+    <bendpoints xmi:id="_jVctUIb_EeOJZ_Ts3WWLLA" sourceX="-396" sourceY="-866" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jC3vkIb_EeOJZ_Ts3WWLLA" sourceAnchor="221.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jC5kwIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g19MEIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVctUYb_EeOJZ_Ts3WWLLA" sourceY="-37" targetX="-427" targetY="27"/>
+    <bendpoints xmi:id="_jVctUob_EeOJZ_Ts3WWLLA" sourceX="427" sourceY="-37" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jC8BAIb_EeOJZ_Ts3WWLLA" sourceAnchor="223.0,94.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jC92MIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g2BdgIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVdUYIb_EeOJZ_Ts3WWLLA" sourceY="222" targetX="-160" targetY="1064"/>
+    <bendpoints xmi:id="_jVdUYYb_EeOJZ_Ts3WWLLA" sourceX="-1156" sourceY="222" targetX="-1316" targetY="1064"/>
+    <bendpoints xmi:id="_jVdUYob_EeOJZ_Ts3WWLLA" sourceX="-1156" sourceY="-815" targetX="-1316" targetY="27"/>
+    <bendpoints xmi:id="_jVdUY4b_EeOJZ_Ts3WWLLA" sourceX="160" sourceY="-815" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDBgkIb_EeOJZ_Ts3WWLLA" sourceAnchor="159.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDDVwIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g23yEIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVd7cIb_EeOJZ_Ts3WWLLA" sourceY="-193" targetX="-663" targetY="27"/>
+    <bendpoints xmi:id="_jVd7cYb_EeOJZ_Ts3WWLLA" sourceX="663" sourceY="-193" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDFyAYb_EeOJZ_Ts3WWLLA" targetItem="_jDJcYob_EeOJZ_Ts3WWLLA" sourceItem="_jDFyAIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jDFyAob_EeOJZ_Ts3WWLLA" source="_jDJcYob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g-EmQYb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDqZwob_EeOJZ_Ts3WWLLA" position="510.0,510.0"/>
+    <stereotypes xmi:id="_jDI1UYb_EeOJZ_Ts3WWLLA" name="Reference">
+      <modelElement href="ftp_client.uml#_g-F0YIb_EeOJZ_Ts3WWLLA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jDIOQIb_EeOJZ_Ts3WWLLA" text=""/>
+    <sourceRole xmi:id="_jDIOQYb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="">
+      <modelElement href="ftp_client.uml#_g-EmQob_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDI1U4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <cardinality xmi:id="_jDI1Uob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jDI1UIb_EeOJZ_Ts3WWLLA" aggregationKind="NONE" name="serverMessage" navigable="true">
+      <modelElement href="ftp_client.uml#_g6r7EIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDJcYIb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDI1VIb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDMfsIb_EeOJZ_Ts3WWLLA" sourceAnchor="198.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDNt0Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g2_t4ob_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVd7cob_EeOJZ_Ts3WWLLA" sourceY="-241" targetX="136" targetY="733"/>
+    <bendpoints xmi:id="_jVd7c4b_EeOJZ_Ts3WWLLA" sourceX="-1359" sourceY="-241" targetX="-1223" targetY="733"/>
+    <bendpoints xmi:id="_jVeigIb_EeOJZ_Ts3WWLLA" sourceX="-1359" sourceY="-947" targetX="-1223" targetY="27"/>
+    <bendpoints xmi:id="_jVeigYb_EeOJZ_Ts3WWLLA" sourceX="-136" sourceY="-947" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDPjAIb_EeOJZ_Ts3WWLLA" sourceAnchor="823.0,69.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDSmUIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g3DYQIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVeigob_EeOJZ_Ts3WWLLA" sourceX="549" targetX="1143" targetY="1213"/>
+    <bendpoints xmi:id="_jVeig4b_EeOJZ_Ts3WWLLA" sourceX="549" sourceY="-1186" targetX="1143" targetY="27"/>
+    <bendpoints xmi:id="_jVfJkIb_EeOJZ_Ts3WWLLA" sourceX="-594" sourceY="-1186" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDRYMYb_EeOJZ_Ts3WWLLA" targetItem="_jDSmYYb_EeOJZ_Ts3WWLLA" sourceItem="_jDRYMIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDXe0Ib_EeOJZ_Ts3WWLLA" sourceAnchor="161.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDbJMIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g3HCoIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVfJkYb_EeOJZ_Ts3WWLLA" sourceY="-382" targetX="-837" targetY="200"/>
+    <bendpoints xmi:id="_jVfJkob_EeOJZ_Ts3WWLLA" sourceX="144" sourceY="-382" targetX="-693" targetY="200"/>
+    <bendpoints xmi:id="_jVfJk4b_EeOJZ_Ts3WWLLA" sourceX="144" sourceY="-555" targetX="-693" targetY="27"/>
+    <bendpoints xmi:id="_jVfwoIb_EeOJZ_Ts3WWLLA" sourceX="837" sourceY="-555" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDaiIYb_EeOJZ_Ts3WWLLA" targetItem="_jDbJOob_EeOJZ_Ts3WWLLA" sourceItem="_jDaiIIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDeMgIb_EeOJZ_Ts3WWLLA" sourceAnchor="108.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDh24Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g3KF8Ib_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVfwoYb_EeOJZ_Ts3WWLLA" sourceY="-766" targetX="-1193" targetY="27"/>
+    <bendpoints xmi:id="_jVfwoob_EeOJZ_Ts3WWLLA" sourceX="1193" sourceY="-766" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDezkYb_EeOJZ_Ts3WWLLA" targetItem="_jDh24Ib_EeOJZ_Ts3WWLLA" sourceItem="_jDezkIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDfaoYb_EeOJZ_Ts3WWLLA" targetItem="_jDh27Yb_EeOJZ_Ts3WWLLA" sourceItem="_jDfaoIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDgowYb_EeOJZ_Ts3WWLLA" targetItem="_jDh274b_EeOJZ_Ts3WWLLA" sourceItem="_jDgowIb_EeOJZ_Ts3WWLLA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_jDmIUIb_EeOJZ_Ts3WWLLA" sourceAnchor="224.0,0.0" targetAnchor="331.0,158.0" superClass="_jCdf4Ib_EeOJZ_Ts3WWLLA" subClass="_jDn9gIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g3MiMIb_EeOJZ_Ts3WWLLA"/>
+    <bendpoints xmi:id="_jVgXsIb_EeOJZ_Ts3WWLLA" sourceY="-37" targetX="-954" targetY="27"/>
+    <bendpoints xmi:id="_jVgXsYb_EeOJZ_Ts3WWLLA" sourceX="954" sourceY="-37" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jDmvYYb_EeOJZ_Ts3WWLLA" targetItem="_jDn9gIb_EeOJZ_Ts3WWLLA" sourceItem="_jDmvYIb_EeOJZ_Ts3WWLLA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jBhrwIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jBrcwIb_EeOJZ_Ts3WWLLA" text="Komenda przerywajaca watek innej komendy&#xD;&#xA;@author redi&#xD;&#xA;@version 1.0" item="_jBugGYb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9c7MYb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jBzYkIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jBzYkYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jB0mv4b_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9c7Mob_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jB5fMIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jB5fMYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jB6tX4b_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9diQIb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jCQEgIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jCQEgYb_EeOJZ_Ts3WWLLA" text="Klasa bazowa dla wszystkich komend&#xD;&#xA;@author redi&#xD;&#xA;@version 1.0&#xD;&#xA;@see gui.mainWindow" item="_jCdf4Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9diQYb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jCmCwIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jCmCwYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jCmp2ob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9diQob_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jCriUIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jCsJYIb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jCsweob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9diQ4b_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDFyAIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDFyAYb_EeOJZ_Ts3WWLLA" text="Parser ktĂłry przetwarza liste plikow na bardziej przyjazna uzytkownikowi&#xD;&#xA;@author redi&#xD;&#xA;@see gui.commands.MLSD&#xD;&#xA;@version 1.0" item="_jDJcYob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9eJUIb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDRYMIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDRYMYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jDSmYYb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9eJUYb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDaiIIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDaiIYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jDbJOob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9ewYIb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDezkIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDezkYb_EeOJZ_Ts3WWLLA" text="STOR&#xD;&#xA;@author redi" item="_jDh24Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9ewYYb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDfaoIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDfaoYb_EeOJZ_Ts3WWLLA" text="Wywolaj komende" item="_jDh27Yb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9ewY4b_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDgowIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDgowYb_EeOJZ_Ts3WWLLA" text="@inheritDoc" item="_jDh274b_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9ewYob_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jDmvYIb_EeOJZ_Ts3WWLLA" sourceConnectionVisual="_jDmvYYb_EeOJZ_Ts3WWLLA" text="TYPE I&#xD;&#xA;@author redi" item="_jDn9gIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_g9ewZIb_EeOJZ_Ts3WWLLA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jBfPgIb_EeOJZ_Ts3WWLLA" name="USER" generalizations="_jCQrkIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gIAg8Ib_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jBfPgYb_EeOJZ_Ts3WWLLA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jBfPgob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jBfPg4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gIDkQIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jBfPhIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jBfPhYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g49cwIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBfPhob_EeOJZ_Ts3WWLLA" name="StringBuilder">
+          <modelElement href="ftp_client.uml#_g46ZcIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jBfPh4b_EeOJZ_Ts3WWLLA" name="username">
+        <modelElement href="ftp_client.uml#_gIDkQYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBfPiIb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jBfPiYb_EeOJZ_Ts3WWLLA" name="USER">
+      <modelElement href="ftp_client.uml#_g1Aw4Ib_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jBfPiob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jBfPi4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jBfPjIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1B_AIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBfPjYb_EeOJZ_Ts3WWLLA" name="USER">
+          <modelElement href="ftp_client.uml#_gIAg8Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jBfPjob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1BX8Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBfPj4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jBfPkIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1BX8Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBfPkYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jBugGYb_EeOJZ_Ts3WWLLA" comments="_jBhrwIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jBrcwIb_EeOJZ_Ts3WWLLA" name="ABOR" associationsOut="_jBugEIb_EeOJZ_Ts3WWLLA" generalizations="_jCRSoIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gIsdcIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jBugGob_EeOJZ_Ts3WWLLA" position="-58.0,193.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jBugG4b_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jBugHIb_EeOJZ_Ts3WWLLA" name="threadToInterrupt">
+      <modelElement href="ftp_client.uml#_g6l0cIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jBugHYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6l0cYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jBugHob_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6l0cYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jBugH4b_EeOJZ_Ts3WWLLA" label="~"/>
+      <cardinality xmi:id="_jBugIIb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jBugIYb_EeOJZ_Ts3WWLLA" name="Thread">
+        <modelElement href="ftp_client.uml#_g5FYkIb_EeOJZ_Ts3WWLLA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jBugIob_EeOJZ_Ts3WWLLA" name="run">
+      <modelElement href="ftp_client.uml#_gIwH0Ib_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jBugI4b_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_gIxV8Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jBugJIb_EeOJZ_Ts3WWLLA" name="Annotations">
+        <modelElement href="ftp_client.uml#_gIykEIb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jBugJYb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jBugJob_EeOJZ_Ts3WWLLA" name="ABOR">
+      <modelElement href="ftp_client.uml#_g5GmsYb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jBugJ4b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jBugKIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jBugKYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g5HNxIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBugKob_EeOJZ_Ts3WWLLA" name="ABOR">
+          <modelElement href="ftp_client.uml#_gIsdcIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jBugK4b_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g5Gmsob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBugLIb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jBugLYb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g5HNwIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBugLob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jBugL4b_EeOJZ_Ts3WWLLA" name="threadToInterrupt">
+        <modelElement href="ftp_client.uml#_g5HNwYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jBugMIb_EeOJZ_Ts3WWLLA" name="Thread">
+          <modelElement href="ftp_client.uml#_g5FYkIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jB0msIb_EeOJZ_Ts3WWLLA" name="APPE" generalizations="_jCUV8Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gI7uAIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jB0msYb_EeOJZ_Ts3WWLLA" position="-192.0,359.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jB0msob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jB0ms4b_EeOJZ_Ts3WWLLA" name="fileName">
+      <modelElement href="ftp_client.uml#_g6mbgIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jB0mtIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6mbgYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB0mtYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jB0mtob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jB0mt4b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jB0muIb_EeOJZ_Ts3WWLLA" name="fileLocation">
+      <modelElement href="ftp_client.uml#_g6nCkIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jB0muYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6nCkYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB0muob_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jB0mu4b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jB0mvIb_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jB0mvYb_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gJK-kIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jB0mvob_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jB0mv4b_EeOJZ_Ts3WWLLA" comments="_jBzYkIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jBzYkYb_EeOJZ_Ts3WWLLA" name="APPE">
+      <modelElement href="ftp_client.uml#_g1fSAIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jB0mwIb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jB0mwYb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jB0mwob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1ggIob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0mw4b_EeOJZ_Ts3WWLLA" name="APPE">
+          <modelElement href="ftp_client.uml#_gI7uAIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB0mxIb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1f5EIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0mxYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB0mxob_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g1f5EYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0mx4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB0myIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1f5Eob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0myYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB0myob_EeOJZ_Ts3WWLLA" name="fileName">
+        <modelElement href="ftp_client.uml#_g1f5E4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0my4b_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB0mzIb_EeOJZ_Ts3WWLLA" name="fileLocation">
+        <modelElement href="ftp_client.uml#_g1f5FIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0mzYb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jB0mzob_EeOJZ_Ts3WWLLA" name="send">
+      <modelElement href="ftp_client.uml#_g5Ib4Ib_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jB0mz4b_EeOJZ_Ts3WWLLA" label="-"/>
+      <parameters xmi:id="_jB0m0Ib_EeOJZ_Ts3WWLLA" name="out">
+        <modelElement href="ftp_client.uml#_g5Ib4Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0m0Yb_EeOJZ_Ts3WWLLA" name="BufferedOutputStream">
+          <modelElement href="ftp_client.uml#_g1bnoYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB0m0ob_EeOJZ_Ts3WWLLA" name="input">
+        <modelElement href="ftp_client.uml#_g5Ib4ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB0m04b_EeOJZ_Ts3WWLLA" name="BufferedInputStream">
+          <modelElement href="ftp_client.uml#_g1QogIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jB6tUIb_EeOJZ_Ts3WWLLA" name="CHMOD" generalizations="_jCUV8Yb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gJUvkIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jB6tUYb_EeOJZ_Ts3WWLLA" position="-139.0,583.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jB6tUob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jB6tU4b_EeOJZ_Ts3WWLLA" name="fileName">
+      <modelElement href="ftp_client.uml#_g6npoIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jB6tVIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6npoYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB6tVYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jB6tVob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jB6tV4b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jB6tWIb_EeOJZ_Ts3WWLLA" name="permissions">
+      <modelElement href="ftp_client.uml#_g6oQsIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jB6tWYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6oQsYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB6tWob_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jB6tW4b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jB6tXIb_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jB6tXYb_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gJYZ8Ib_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jB6tXob_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jB6tX4b_EeOJZ_Ts3WWLLA" comments="_jB5fMIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jB5fMYb_EeOJZ_Ts3WWLLA" name="CHMOD">
+      <modelElement href="ftp_client.uml#_g1jjcIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jB6tYIb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jB6tYYb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jB6tYob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1n05Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB6tY4b_EeOJZ_Ts3WWLLA" name="CHMOD">
+          <modelElement href="ftp_client.uml#_gJUvkIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB6tZIb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1jjcYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB6tZYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB6tZob_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1nN0Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB6tZ4b_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB6taIb_EeOJZ_Ts3WWLLA" name="fileName">
+        <modelElement href="ftp_client.uml#_g1n04Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB6taYb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jB6taob_EeOJZ_Ts3WWLLA" name="permissions">
+        <modelElement href="ftp_client.uml#_g1n04Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jB6ta4b_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCLzEIb_EeOJZ_Ts3WWLLA" name="CWD" generalizations="_jCU9AIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gJgVwIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jCLzEYb_EeOJZ_Ts3WWLLA" position="-647.0,33.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCLzEob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jCLzE4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gJjZEIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCLzFIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCLzFYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_gJknMYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzFob_EeOJZ_Ts3WWLLA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCLzF4b_EeOJZ_Ts3WWLLA" name="folderName">
+        <modelElement href="ftp_client.uml#_gJknMIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzGIb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCLzGYb_EeOJZ_Ts3WWLLA" name="CWD">
+      <modelElement href="ftp_client.uml#_g1qRIIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCLzGob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCLzG4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCLzHIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1q4Mob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzHYb_EeOJZ_Ts3WWLLA" name="CWD">
+          <modelElement href="ftp_client.uml#_gJgVwIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCLzHob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1qRIYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzH4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCLzIIb_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g1qRIob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzIYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCLzIob_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1qRI4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCLzI4b_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCdf4Ib_EeOJZ_Ts3WWLLA" comments="_jCQEgIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jCQEgYb_EeOJZ_Ts3WWLLA" name="Command" associationsOut="_jCU9AYb_EeOJZ_Ts3WWLLA _jCU9Aob_EeOJZ_Ts3WWLLA _jCVkEIb_EeOJZ_Ts3WWLLA" subclassedBy="_jCQrkIb_EeOJZ_Ts3WWLLA _jCRSoIb_EeOJZ_Ts3WWLLA _jCUV8Ib_EeOJZ_Ts3WWLLA _jCUV8Yb_EeOJZ_Ts3WWLLA _jCU9AIb_EeOJZ_Ts3WWLLA _jCkNkIb_EeOJZ_Ts3WWLLA _jCqUMIb_EeOJZ_Ts3WWLLA _jCvzwIb_EeOJZ_Ts3WWLLA _jC0FMIb_EeOJZ_Ts3WWLLA _jC3vkIb_EeOJZ_Ts3WWLLA _jC8BAIb_EeOJZ_Ts3WWLLA _jDBgkIb_EeOJZ_Ts3WWLLA _jDMfsIb_EeOJZ_Ts3WWLLA _jDPjAIb_EeOJZ_Ts3WWLLA _jDXe0Ib_EeOJZ_Ts3WWLLA _jDeMgIb_EeOJZ_Ts3WWLLA _jDmIUIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gJqt0Ib_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jCdf4Yb_EeOJZ_Ts3WWLLA" position="-833.0,-180.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCdf4ob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jCdf44b_EeOJZ_Ts3WWLLA" name="communicationSocket">
+      <modelElement href="ftp_client.uml#_g6o3wIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCdf5Ib_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6o3wYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jCbqsob_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6o3wYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCdf5Yb_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCdf5ob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCdf54b_EeOJZ_Ts3WWLLA" name="FTPClient">
+        <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jCdf6Ib_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+      <modelElement href="ftp_client.uml#_g6o3wob_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCdf6Yb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6pe0Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jCcRwIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6pe0Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCdf6ob_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCdf64b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCdf7Ib_EeOJZ_Ts3WWLLA" name="FTPClient">
+        <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jCdf7Yb_EeOJZ_Ts3WWLLA" name="messenger">
+      <modelElement href="ftp_client.uml#_g6pe0Yb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCdf7ob_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6qF4Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jCcRxYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6qF4Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCdf74b_EeOJZ_Ts3WWLLA" label="#"/>
+      <cardinality xmi:id="_jCdf8Ib_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCdf8Yb_EeOJZ_Ts3WWLLA" name="Messenger">
+        <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jCdf8ob_EeOJZ_Ts3WWLLA" name="Command">
+      <modelElement href="ftp_client.uml#_gJsjAIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCdf84b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <stereotypes xmi:id="_jCdf9Ib_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_gJtKEYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCdf9Yb_EeOJZ_Ts3WWLLA" label="~"/>
+      <outParameters xmi:id="_jCdf9ob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_gJtxIIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdf94b_EeOJZ_Ts3WWLLA" name="Command">
+          <modelElement href="ftp_client.uml#_gJqt0Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCdf-Ib_EeOJZ_Ts3WWLLA" name="Command">
+      <modelElement href="ftp_client.uml#_g1tUcIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCdf-Yb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCdf-ob_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCdf-4b_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1t7hYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdf_Ib_EeOJZ_Ts3WWLLA" name="Command">
+          <modelElement href="ftp_client.uml#_gJqt0Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCdf_Yb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1t7gIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdf_ob_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCdf_4b_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g1t7gYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdgAIb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCdgAYb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1t7gob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdgAob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCdgA4b_EeOJZ_Ts3WWLLA" name="Command">
+      <modelElement href="ftp_client.uml#_g1uikIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCdgBIb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCdgBYb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCdgBob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1vJo4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdgB4b_EeOJZ_Ts3WWLLA" name="Command">
+          <modelElement href="ftp_client.uml#_gJqt0Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCdgCIb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1uikYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdgCYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCdgCob_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1vJoIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCdgC4b_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCmp0Ib_EeOJZ_Ts3WWLLA" name="DELE" generalizations="_jCkNkIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gJ5XUIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jCmp0Yb_EeOJZ_Ts3WWLLA" position="-815.0,200.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCmp0ob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jCmp04b_EeOJZ_Ts3WWLLA" name="fileName">
+      <modelElement href="ftp_client.uml#_g6qF4Yb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCmp1Ib_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6qs8Ib_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCmp1Yb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jCmp1ob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCmp14b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jCmp2Ib_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gJ8aoIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCmp2Yb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jCmp2ob_EeOJZ_Ts3WWLLA" comments="_jCmCwIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jCmCwYb_EeOJZ_Ts3WWLLA" name="DELE">
+      <modelElement href="ftp_client.uml#_g1w-0Ib_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCmp24b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCmp3Ib_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCmp3Yb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g1yM8Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCmp3ob_EeOJZ_Ts3WWLLA" name="DELE">
+          <modelElement href="ftp_client.uml#_gJ5XUIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCmp34b_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1xl4Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCmp4Ib_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCmp4Yb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g1xl4Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCmp4ob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCmp44b_EeOJZ_Ts3WWLLA" name="fileName">
+        <modelElement href="ftp_client.uml#_g1xl4ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCmp5Ib_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCswcIb_EeOJZ_Ts3WWLLA" name="MKD" generalizations="_jCqUMIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gKB6MIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jCswcYb_EeOJZ_Ts3WWLLA" position="-812.0,380.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCswcob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jCswc4b_EeOJZ_Ts3WWLLA" name="folderName">
+      <modelElement href="ftp_client.uml#_g6qs8Yb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCswdIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6rUAIb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCswdYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jCswdob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCswd4b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jCsweIb_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gKE9gIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jCsweYb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jCsweob_EeOJZ_Ts3WWLLA" comments="_jCriUIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jCsJYIb_EeOJZ_Ts3WWLLA" name="MKD">
+      <modelElement href="ftp_client.uml#_g10CIIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCswe4b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCswfIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCswfYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g10pMob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCswfob_EeOJZ_Ts3WWLLA" name="MKD">
+          <modelElement href="ftp_client.uml#_gKB6MIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCswf4b_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g10CIYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCswgIb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCswgYb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g10CIob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCswgob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCtXgIb_EeOJZ_Ts3WWLLA" name="folderName">
+        <modelElement href="ftp_client.uml#_g10CI4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCtXgYb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCxo8Ib_EeOJZ_Ts3WWLLA" name="MLSD" generalizations="_jCvzwIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gKKdEIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jCxo8Yb_EeOJZ_Ts3WWLLA" position="-809.0,596.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCxo8ob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jCxo84b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gKRx0Ib_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jCxo9Ib_EeOJZ_Ts3WWLLA" name="Generics">
+        <modelElement href="ftp_client.uml#_gKTnAIb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCxo9Yb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCxo9ob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g5K4IIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCxo94b_EeOJZ_Ts3WWLLA" name="Vector">
+          <modelElement href="ftp_client.uml#_g12eYIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCxo-Ib_EeOJZ_Ts3WWLLA" name="MLSD">
+      <modelElement href="ftp_client.uml#_g13sgIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jCxo-Yb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jCxo-ob_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jCxo-4b_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g14TlIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCxo_Ib_EeOJZ_Ts3WWLLA" name="MLSD">
+          <modelElement href="ftp_client.uml#_gKKdEIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCxo_Yb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g13sgYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCxo_ob_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCxo_4b_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g14TkIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCxpAIb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCxpAYb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g14TkYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jCxpAob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jC16YIb_EeOJZ_Ts3WWLLA" name="NOOP" generalizations="_jC0FMIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gKcJ4Ib_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jC16YYb_EeOJZ_Ts3WWLLA" position="-351.0,796.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jC16Yob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jC16Y4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gKl64Ib_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jC16ZIb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jC16ZYb_EeOJZ_Ts3WWLLA" name="NOOP">
+      <modelElement href="ftp_client.uml#_g16IwIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jC16Zob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jC16Z4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jC16aIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g16v0ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC16aYb_EeOJZ_Ts3WWLLA" name="NOOP">
+          <modelElement href="ftp_client.uml#_gKcJ4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jC16aob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g16IwYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC16a4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jC16bIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g16Iwob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC16bYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jC5kwIb_EeOJZ_Ts3WWLLA" name="PASS" generalizations="_jC3vkIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gKsBgIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jC5kwYb_EeOJZ_Ts3WWLLA" position="-1150.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jC5kwob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jC5kw4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gKtPoIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jC5kxIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jC5kxYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g54CwIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC5kxob_EeOJZ_Ts3WWLLA" name="StringBuilder">
+          <modelElement href="ftp_client.uml#_g46ZcIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jC5kx4b_EeOJZ_Ts3WWLLA" name="password">
+        <modelElement href="ftp_client.uml#_gKtPoYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC5kyIb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jC5kyYb_EeOJZ_Ts3WWLLA" name="PASS">
+      <modelElement href="ftp_client.uml#_g1798Ib_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jC5kyob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jC5ky4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jC5kzIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g18lA4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC5kzYb_EeOJZ_Ts3WWLLA" name="PASS">
+          <modelElement href="ftp_client.uml#_gKsBgIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jC5kzob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1798Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC5kz4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jC5k0Ib_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g18lAIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC5k0Yb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jC92MIb_EeOJZ_Ts3WWLLA" name="PASV" generalizations="_jC8BAIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gKzWQIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jC92MYb_EeOJZ_Ts3WWLLA" position="-885.0,726.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jC92Mob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jC92M4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gK1ygIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jC92NIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jC92NYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g2A2cIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92Nob_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jC92N4b_EeOJZ_Ts3WWLLA" name="PASV">
+      <modelElement href="ftp_client.uml#_g1_oUIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jC92OIb_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jC92OYb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jC92Oob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g2APY4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92O4b_EeOJZ_Ts3WWLLA" name="PASV">
+          <modelElement href="ftp_client.uml#_gKzWQIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jC92PIb_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g1_oUYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92PYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jC92Pob_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g2APYIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92P4b_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jC92QIb_EeOJZ_Ts3WWLLA" name="openDataConnection">
+      <modelElement href="ftp_client.uml#_g55Q4Ib_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jC92QYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <outParameters xmi:id="_jC92Qob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g55Q44b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92Q4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jC92RIb_EeOJZ_Ts3WWLLA" name="address">
+        <modelElement href="ftp_client.uml#_g55Q4Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92RYb_EeOJZ_Ts3WWLLA" name="InetAddress">
+          <modelElement href="ftp_client.uml#_g01KsYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jC92Rob_EeOJZ_Ts3WWLLA" name="port">
+        <modelElement href="ftp_client.uml#_g55Q4ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jC92R4b_EeOJZ_Ts3WWLLA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDDVwIb_EeOJZ_Ts3WWLLA" name="PWD" generalizations="_jDBgkIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gLBYsIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDDVwYb_EeOJZ_Ts3WWLLA" position="-1324.0,198.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDDVwob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jDDVw4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gLDN4Ib_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDDVxIb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDDVxYb_EeOJZ_Ts3WWLLA" name="PWD">
+      <modelElement href="ftp_client.uml#_g2DSsIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDDVxob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDDVx4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDDVyIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g2D5w4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDDVyYb_EeOJZ_Ts3WWLLA" name="PWD">
+          <modelElement href="ftp_client.uml#_gLBYsIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDDVyob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g2DSsYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDDVy4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDDVzIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g2D5wIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDDVzYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDJcYob_EeOJZ_Ts3WWLLA" comments="_jDFyAIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDFyAYb_EeOJZ_Ts3WWLLA" name="Parser" associationsOut="_jDFyAob_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gLHfUIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDJcY4b_EeOJZ_Ts3WWLLA" position="-1194.0,346.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDJcZIb_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jDJcZYb_EeOJZ_Ts3WWLLA" name="serverMessage">
+      <modelElement href="ftp_client.uml#_g6r7EIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDJcZob_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6r7EYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jDJcYYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6r7EYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDJcZ4b_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDJcaIb_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDJcaYb_EeOJZ_Ts3WWLLA" name="StringBuilder">
+        <modelElement href="ftp_client.uml#_g46ZcIb_EeOJZ_Ts3WWLLA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jDJcaob_EeOJZ_Ts3WWLLA" name="parseDataConnectionAddress">
+      <modelElement href="ftp_client.uml#_gLJUgIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDJca4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDJcbIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g587QIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDJcbYb_EeOJZ_Ts3WWLLA" name="InetAddress">
+          <modelElement href="ftp_client.uml#_g01KsYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jDJcbob_EeOJZ_Ts3WWLLA" name="parseDataConnectionPort">
+      <modelElement href="ftp_client.uml#_gLKioIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDJcb4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDJccIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_gLLJsIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDJccYb_EeOJZ_Ts3WWLLA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jDJccob_EeOJZ_Ts3WWLLA" name="Parser">
+      <modelElement href="ftp_client.uml#_g56fAIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDJcc4b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDJcdIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDJcdYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g58UMob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDJcdob_EeOJZ_Ts3WWLLA" name="Parser">
+          <modelElement href="ftp_client.uml#_gLHfUIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDJcd4b_EeOJZ_Ts3WWLLA" name="serverMessage">
+        <modelElement href="ftp_client.uml#_g56fAYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDJceIb_EeOJZ_Ts3WWLLA" name="StringBuilder">
+          <modelElement href="ftp_client.uml#_g46ZcIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDNt0Ib_EeOJZ_Ts3WWLLA" name="QUIT" generalizations="_jDMfsIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gLt8QIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDNt0Yb_EeOJZ_Ts3WWLLA" position="-564.0,952.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDNt0ob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jDNt04b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gLvxcIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDNt1Ib_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDNt1Yb_EeOJZ_Ts3WWLLA" name="QUIT">
+      <modelElement href="ftp_client.uml#_g2_G0Ib_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDNt1ob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDNt14b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDNt2Ib_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g2_t4Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDNt2Yb_EeOJZ_Ts3WWLLA" name="QUIT">
+          <modelElement href="ftp_client.uml#_gLt8QIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDNt2ob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g2_G0Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDNt24b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDNt3Ib_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g2_G0ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDNt3Yb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDSmUIb_EeOJZ_Ts3WWLLA" name="RETR" generalizations="_jDPjAIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gLy0wIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDSmUYb_EeOJZ_Ts3WWLLA" position="-731.0,1122.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDSmUob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jDSmU4b_EeOJZ_Ts3WWLLA" name="fileName">
+      <modelElement href="ftp_client.uml#_g6siIIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDSmVIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6siIYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDSmVYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDSmVob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDSmV4b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jDSmWIb_EeOJZ_Ts3WWLLA" name="saveLocation">
+      <modelElement href="ftp_client.uml#_g6tJMIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDSmWYb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6tJMYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDSmWob_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDSmW4b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDSmXIb_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jDSmXYb_EeOJZ_Ts3WWLLA" name="run">
+      <modelElement href="ftp_client.uml#_gMDTcIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDSmXob_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_gMD6gIb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jDSmX4b_EeOJZ_Ts3WWLLA" name="Annotations">
+        <modelElement href="ftp_client.uml#_gMEhkIb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDSmYIb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDSmYYb_EeOJZ_Ts3WWLLA" comments="_jDRYMIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDRYMYb_EeOJZ_Ts3WWLLA" name="RETR">
+      <modelElement href="ftp_client.uml#_g3BjEYb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDSmYob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDSmY4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDSmZIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g3CxMob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDSmZYb_EeOJZ_Ts3WWLLA" name="RETR">
+          <modelElement href="ftp_client.uml#_gLy0wIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDSmZob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g3CKIIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDSmZ4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDSmaIb_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g3CKIYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDSmaYb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDTNYIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g3CKIob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDTNYYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDTNYob_EeOJZ_Ts3WWLLA" name="fileName">
+        <modelElement href="ftp_client.uml#_g3CKI4b_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDTNY4b_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDTNZIb_EeOJZ_Ts3WWLLA" name="saveLocation">
+        <modelElement href="ftp_client.uml#_g3CKJIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDTNZYb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jDTNZob_EeOJZ_Ts3WWLLA" name="copy">
+      <modelElement href="ftp_client.uml#_g5-JYIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDTNZ4b_EeOJZ_Ts3WWLLA" label="-"/>
+      <parameters xmi:id="_jDTNaIb_EeOJZ_Ts3WWLLA" name="in">
+        <modelElement href="ftp_client.uml#_g5-JYYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDTNaYb_EeOJZ_Ts3WWLLA" name="InputStream">
+          <modelElement href="ftp_client.uml#_g0wSMYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDTNaob_EeOJZ_Ts3WWLLA" name="out">
+        <modelElement href="ftp_client.uml#_g5_-kIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDTNa4b_EeOJZ_Ts3WWLLA" name="OutputStream">
+          <modelElement href="ftp_client.uml#_g0yucYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDbJMIb_EeOJZ_Ts3WWLLA" name="RMD" generalizations="_jDXe0Ib_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gMO5oIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDbJMYb_EeOJZ_Ts3WWLLA" position="-1500.0,560.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDbJMob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jDbJM4b_EeOJZ_Ts3WWLLA" name="folderName">
+      <modelElement href="ftp_client.uml#_g6twQIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDbJNIb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6twQYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDbJNYb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDbJNob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDbJN4b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jDbJOIb_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gMTLEIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDbJOYb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDbJOob_EeOJZ_Ts3WWLLA" comments="_jDaiIIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDaiIYb_EeOJZ_Ts3WWLLA" name="RMD">
+      <modelElement href="ftp_client.uml#_g3F0gIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDbJO4b_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDbJPIb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDbJPYb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g3GblYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDbJPob_EeOJZ_Ts3WWLLA" name="RMD">
+          <modelElement href="ftp_client.uml#_gMO5oIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDbJP4b_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g3GbkIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDbJQIb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDbJQYb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g3GbkYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDbJQob_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDbJQ4b_EeOJZ_Ts3WWLLA" name="folderName">
+        <modelElement href="ftp_client.uml#_g3Gbkob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDbJRIb_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDh24Ib_EeOJZ_Ts3WWLLA" comments="_jDezkIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDezkYb_EeOJZ_Ts3WWLLA" name="STOR" generalizations="_jDeMgIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gMYDkIb_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDh24Yb_EeOJZ_Ts3WWLLA" position="-1803.0,771.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDh24ob_EeOJZ_Ts3WWLLA" label="+"/>
+    <attributes xmi:id="_jDh244b_EeOJZ_Ts3WWLLA" name="fileName">
+      <modelElement href="ftp_client.uml#_g6uXUIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDh25Ib_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6uXUYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDh25Yb_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDh25ob_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDh254b_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jDh26Ib_EeOJZ_Ts3WWLLA" name="fileLocation">
+      <modelElement href="ftp_client.uml#_g6u-YIb_EeOJZ_Ts3WWLLA"/>
+      <stereotypes xmi:id="_jDh26Yb_EeOJZ_Ts3WWLLA" name="LegacyStyledElement">
+        <modelElement href="ftp_client.uml#_g6u-YYb_EeOJZ_Ts3WWLLA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDh26ob_EeOJZ_Ts3WWLLA" label="-"/>
+      <cardinality xmi:id="_jDh264b_EeOJZ_Ts3WWLLA" label="1" max="1" min="1"/>
+      <type xmi:id="_jDh27Ib_EeOJZ_Ts3WWLLA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jDh27Yb_EeOJZ_Ts3WWLLA" comments="_jDfaoIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDfaoYb_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gMcVAIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDh27ob_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDh274b_EeOJZ_Ts3WWLLA" comments="_jDgowIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDgowYb_EeOJZ_Ts3WWLLA" name="STOR">
+      <modelElement href="ftp_client.uml#_g3IQwIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDh28Ib_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDh28Yb_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDh28ob_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g3I31Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDh284b_EeOJZ_Ts3WWLLA" name="STOR">
+          <modelElement href="ftp_client.uml#_gMYDkIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDh29Ib_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g3IQwYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDh29Yb_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDh29ob_EeOJZ_Ts3WWLLA" name="fileTransferSocket">
+        <modelElement href="ftp_client.uml#_g3IQwob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDh294b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDh2-Ib_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g3I30Ib_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDid8Ib_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDid8Yb_EeOJZ_Ts3WWLLA" name="fileName">
+        <modelElement href="ftp_client.uml#_g3I30Yb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDid8ob_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDid84b_EeOJZ_Ts3WWLLA" name="fileLocation">
+        <modelElement href="ftp_client.uml#_g3I30ob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDid9Ib_EeOJZ_Ts3WWLLA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jDid9Yb_EeOJZ_Ts3WWLLA" name="send">
+      <modelElement href="ftp_client.uml#_g6BMsIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDid9ob_EeOJZ_Ts3WWLLA" label="-"/>
+      <parameters xmi:id="_jDid94b_EeOJZ_Ts3WWLLA" name="out">
+        <modelElement href="ftp_client.uml#_g6BMsYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDid-Ib_EeOJZ_Ts3WWLLA" name="BufferedOutputStream">
+          <modelElement href="ftp_client.uml#_g1bnoYb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDid-Yb_EeOJZ_Ts3WWLLA" name="input">
+        <modelElement href="ftp_client.uml#_g6BzwIb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDid-ob_EeOJZ_Ts3WWLLA" name="BufferedInputStream">
+          <modelElement href="ftp_client.uml#_g1QogIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDn9gIb_EeOJZ_Ts3WWLLA" comments="_jDmvYIb_EeOJZ_Ts3WWLLA" targetConnectionVisual="_jDmvYYb_EeOJZ_Ts3WWLLA" name="TYPEI" generalizations="_jDmIUIb_EeOJZ_Ts3WWLLA">
+    <modelElement href="ftp_client.uml#_gMk34Ib_EeOJZ_Ts3WWLLA"/>
+    <visualProperties xmi:id="_jDn9gYb_EeOJZ_Ts3WWLLA" position="-1680.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jDn9gob_EeOJZ_Ts3WWLLA" label="+"/>
+    <operations xmi:id="_jDn9g4b_EeOJZ_Ts3WWLLA" name="invokeCommand">
+      <modelElement href="ftp_client.uml#_gMnUIIb_EeOJZ_Ts3WWLLA"/>
+      <visibility xmi:id="_jDn9hIb_EeOJZ_Ts3WWLLA" label="+"/>
+    </operations>
+    <operations xmi:id="_jDn9hYb_EeOJZ_Ts3WWLLA" name="TYPEI">
+      <modelElement href="ftp_client.uml#_g3LUEIb_EeOJZ_Ts3WWLLA"/>
+      <keywords xmi:id="_jDn9hob_EeOJZ_Ts3WWLLA" keyword="create"/>
+      <visibility xmi:id="_jDn9h4b_EeOJZ_Ts3WWLLA" label="+"/>
+      <outParameters xmi:id="_jDn9iIb_EeOJZ_Ts3WWLLA">
+        <modelElement href="ftp_client.uml#_g3L7Iob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDn9iYb_EeOJZ_Ts3WWLLA" name="TYPEI">
+          <modelElement href="ftp_client.uml#_gMk34Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jDn9iob_EeOJZ_Ts3WWLLA" name="communicationSocket">
+        <modelElement href="ftp_client.uml#_g3LUEYb_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDn9i4b_EeOJZ_Ts3WWLLA" name="FTPClient">
+          <modelElement href="ftp_client.uml#_gHPE4Ib_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jDn9jIb_EeOJZ_Ts3WWLLA" name="messenger">
+        <modelElement href="ftp_client.uml#_g3LUEob_EeOJZ_Ts3WWLLA"/>
+        <type xmi:id="_jDn9jYb_EeOJZ_Ts3WWLLA" name="Messenger">
+          <modelElement href="ftp_client.uml#_gIN8UIb_EeOJZ_Ts3WWLLA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
