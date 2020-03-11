@@ -1,5 +1,5 @@
 # ftp
 
-Ftp server and client.
+A client and a server for FTP protocol.
 
-Very old project from my school. Good example on how `not` to code.
+University project.
